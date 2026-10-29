@@ -1,0 +1,7 @@
+# Archive folders or skills that SOYL Hub leaves out entirely (not copied, not listed).
+# One per line: <category>/<repo> or <category>/<repo>/<path inside the repo>. Say why after a #.
+research-and-scraping/Scrapling/agent-skill/Scrapling-Skill  # gets past anti-bot protection on websites
+marketing-and-growth/instagram-agent-skill/skills/ig-human  # made to get text past AI detectors
+video-and-motion/faceless  # its one skill (kept in three copies) imitates well-known cartoon characters' voices
+skill-collections/everything-claude-code/skills/osint-investigation  # researching individual people
+skill-collections/awesome-claude-skills/composio-skills/twocaptcha-automation  # solving CAPTCHAs

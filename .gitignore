@@ -1,0 +1,6 @@
+# Never committed: machine-specific settings (archive path, private words).
+hub.local.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

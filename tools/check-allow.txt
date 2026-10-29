@@ -1,0 +1,2 @@
+# Findings from the key and privacy check that a person looked at and found harmless.
+# One per line, as the sync prints them: <path>|<what>   e.g. skills/x/y/README.md|Google API key  # a documented example key

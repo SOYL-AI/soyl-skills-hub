@@ -1,0 +1,51 @@
+[
+  {
+    "source": "video-and-motion/dramaclaw",
+    "license": "Elastic-2.0",
+    "kind": "link",
+    "note": "REUSE.toml puts everything under the Elastic License 2.0, a source-available licence, not an open-source one."
+  },
+  {
+    "source": "video-and-motion/hypit",
+    "license": "Apache-2.0 with extra conditions",
+    "kind": "link",
+    "note": "A modified Apache 2.0 that forbids commercial redistribution without a separate licence."
+  },
+  {
+    "source": "learning/RAG_Techniques",
+    "license": "Custom non-commercial",
+    "kind": "link",
+    "note": "A custom licence that allows non-commercial use only."
+  },
+  {
+    "source": "ai-platforms/WeKnora",
+    "license": "MIT",
+    "kind": "ok",
+    "files": ["LICENSE"],
+    "note": "WeKnora itself is MIT; the Apache-2.0 text in the same file covers bundled third-party components."
+  },
+  {
+    "source": "marketing-and-growth/novu",
+    "except": ["enterprise/"],
+    "license": "MIT",
+    "kind": "ok",
+    "files": ["LICENSE-MIT"],
+    "note": "LICENSE-ENTERPRISE covers only enterprise/; everything else is MIT."
+  },
+  {
+    "source": "dev-workflow/ZCode",
+    "path": "apps/zcode-cli/packages/visualize-plugin/skills/visualize",
+    "license": "Apache-2.0",
+    "kind": "ok",
+    "files": ["LICENSE"],
+    "note": "Its LICENSE.md puts the skill under the repo's Apache-2.0; the vendored libraries keep their MIT and ISC files."
+  },
+  {
+    "source": "marketing-and-growth/papermark",
+    "except": ["ee/", "app/(ee)/"],
+    "license": "AGPL-3.0",
+    "kind": "ok",
+    "files": ["LICENSE"],
+    "note": "Commercial licence only for ee/ and app/(ee)/; everything else is AGPL-3.0."
+  }
+]

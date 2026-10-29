@@ -1,0 +1,35 @@
+{
+  "repo": "SOYL-AI/soyl-skills-hub",
+  "branch": "main",
+  "max_skill_mb": 5,
+  "big_source": 60,
+  "skip_top": ["catalog", "notes", "chat-tab", "hub", "router"],
+  "originals": [
+    "skill-collections/anthropic-skills",
+    "video-and-motion/hyperframes",
+    "video-and-motion/remotion-skills",
+    "web-animation/gsap-skills",
+    "marketing-and-growth/marketingskills",
+    "design-skills/emilkowalski-skills",
+    "dev-workflow/superpowers"
+  ],
+  "non_git_sources": {
+    "string-tune": "https://www.npmjs.com/package/@fiddle-digital/string-tune",
+    "21st-dev": "https://21st.dev"
+  },
+  "categories": [
+    {"id": "video-and-motion", "title": "Video and motion", "blurb": "Reels, explainers, motion graphics, captions and editing video with code."},
+    {"id": "design-skills", "title": "Design", "blurb": "Taste, layout, type, colour, design systems, critique and studying great sites."},
+    {"id": "web-animation", "title": "Web animation", "blurb": "GSAP, scroll-driven motion and animation for websites."},
+    {"id": "creative-coding", "title": "Creative coding", "blurb": "three.js, WebGPU, shaders and 3D on the web."},
+    {"id": "ui-components", "title": "UI components", "blurb": "Component libraries, icons and interface kits."},
+    {"id": "marketing-and-growth", "title": "Marketing and growth", "blurb": "Copy, SEO, ads, launches, email, social media and sales."},
+    {"id": "research-and-scraping", "title": "Research and scraping", "blurb": "Web and paper research, notebooks, scraping and second brains."},
+    {"id": "dev-workflow", "title": "Developer workflow", "blurb": "Planning, testing, debugging, code review, memory and shipping."},
+    {"id": "ai-platforms", "title": "AI platforms", "blurb": "Skills that ship with agent frameworks, RAG systems and model tooling."},
+    {"id": "learning", "title": "Learning", "blurb": "Skills from courses and tutorials on agents and AI."},
+    {"id": "sound-effects", "title": "Sound", "blurb": "Sound effects and interface audio."},
+    {"id": "skill-collections", "title": "Big collections", "blurb": "Large packs that cover many topics at once."},
+    {"id": "awesome-lists", "title": "Awesome lists", "blurb": "Skills found inside curated lists of AI apps and tools."}
+  ]
+}

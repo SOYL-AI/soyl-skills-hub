@@ -1,0 +1,108 @@
+/* SOYL Academy design language: tokens. One typeface, one accent, calm grounds.
+   Every value downstream reads these. Self-host Switzer (https://www.fontshare.com/fonts/switzer, the variable
+   woff2) at /fonts/switzer-var.woff2, or change the path below. MIT licence: see LICENSE at the repo root. */
+
+@font-face {
+  font-family: 'Switzer';
+  src: url('/fonts/switzer-var.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* Metric-matched fallbacks keep the swap from shifting the layout. Measured against Arial: width
+   ratio to the local face for size-adjust; the real ascent and descent, divided by size-adjust because it
+   scales the overrides too. */
+@font-face {
+  font-family: 'Switzer Fallback';
+  src: local('Arial'), local('Helvetica');
+  font-weight: 100 549;
+  size-adjust: 99.7%;
+  ascent-override: 98.3%;
+  descent-override: 25.1%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Switzer Fallback';
+  src: local('Arial Bold'), local('Arial'), local('Helvetica');
+  font-weight: 550 900;
+  size-adjust: 95.1%;
+  ascent-override: 103%;
+  descent-override: 26.3%;
+  line-gap-override: 0%;
+}
+
+:root {
+  /* Grounds: near-white, a warm grey for alternate bands, one dark band per page at most */
+  --bg: #fbfaf8;
+  --panel: #f2f1ec;
+  --card: #ffffff;
+  --night: #0b0c10;
+  --night-card: #17181e;
+  --sun: #f4c93e; /* Future Builders only */
+
+  /* Inks */
+  --ink: #121212;
+  --muted: #5f5d58;
+  --snow: #f4f1ea;
+  --snow-muted: #a8a59e;
+  --sun-ink: #3f3820;
+
+  /* The one accent: actions and links */
+  --blue: #2f4bff;
+  --blue-hover: #1f36d6;
+  --blue-tint: #eef1ff;
+  --blue-on-dark: #9db0ff;
+
+  /* Meaning inside the product: a missed try, a right one, the light in the question */
+  --red: #d93a24;
+  --red-tint: #fdecea;
+  --green: #1e7a4c;
+  --green-tint: #e6f3eb;
+  --amber: #d97706;
+
+  /* Hairlines and field edges (field edges hold 3:1 against white) */
+  --line: rgb(18 18 18 / 0.1);
+  --line-strong: rgb(18 18 18 / 0.2);
+  --field-edge: #8a877f;
+
+  /* Type: Switzer for everything */
+  --f: 'Switzer', 'Switzer Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --t-hero: clamp(2.75rem, 1.15rem + 5.4vw, 5.5rem);
+  --t-h1: clamp(2.5rem, 1.3rem + 4vw, 4.6rem);
+  --t-h2: clamp(2.05rem, 1.15rem + 3vw, 3.75rem);
+  --t-h3: clamp(1.25rem, 1.12rem + 0.45vw, 1.5rem);
+  --t-lead: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  --t-body: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
+  --t-small: 0.9375rem;
+  --t-xs: 0.8125rem;
+
+  /* Space */
+  --m: clamp(20px, 5vw, 72px);
+  --max: 1200px;
+  --gap: clamp(14px, 1.5vw, 22px);
+  --sec: clamp(88px, 9vw, 140px);
+  --sec-s: clamp(56px, 6vw, 96px);
+
+  /* Shape */
+  --r: 28px;
+  --r-card: 22px;
+  --r-s: 14px;
+  --pill: 999px;
+  --shadow: 0 1px 2px rgb(18 18 18 / 0.04), 0 12px 32px rgb(18 18 18 / 0.06);
+  --shadow-lift: 0 2px 4px rgb(18 18 18 / 0.05), 0 18px 44px rgb(18 18 18 / 0.1);
+
+  /* Motion: content arrives once and settles; controls answer at once */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-ui: cubic-bezier(0.23, 1, 0.32, 1);
+  --dur-ui: 200ms;
+  --dur-in: 600ms;
+
+  /* Layers and the bar */
+  --header-h: 60px;
+  --z-header: 50;
+  --z-menu: 40;
+  --z-skip: 100;
+}
+@media (max-width: 599px) {
+  :root { --r: 22px; --r-card: 18px; --header-h: 56px; }
+}
