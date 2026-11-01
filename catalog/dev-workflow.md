@@ -2,7 +2,7 @@
 
 Planning, testing, debugging, code review, memory and shipping.
 
-289 skills here and 1 linked to their source, from 16 projects. [All categories](../CATALOG.md)
+290 skills here and 1 linked to their source, from 17 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -366,6 +366,16 @@ A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Kar
 | Skill | What it does |
 |---|---|
 | [karpathy-guidelines](../skills/dev-workflow/andrej-karpathy-skills/karpathy-guidelines/) | Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface… |
+
+## floorplan
+
+[haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan) · MIT · ★ 1.2k · 1 here
+
+See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.
+
+| Skill | What it does |
+|---|---|
+| [floorplan](../skills/dev-workflow/floorplan/floorplan/) | Draw a floorplan of an app's codebase (one repo or several side by side), an interactive node-graph map where every subsystem, module, file and HTTP route has a… |
 
 ## skillspector
 

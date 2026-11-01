@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "hub": "SOYL-AI/soyl-skills-hub",
  "sources": {
   "ai-platforms/OpenHands": {
@@ -793,6 +793,19 @@
    "stars": 1029,
    "github_checked": "2026-10-30"
   },
+  "dev-workflow/floorplan": {
+   "category": "dev-workflow",
+   "repo": "floorplan",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "branch": "main",
+   "commit": "cec107540da3910c6d7a5fa6400fc9851bf4c15e",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-01",
+   "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+   "stars": 1196,
+   "github_checked": "2026-11-01"
+  },
   "dev-workflow/github-mcp-server": {
    "category": "dev-workflow",
    "repo": "github-mcp-server",
@@ -1390,6 +1403,19 @@
    "stars": 3224,
    "github_checked": "2026-10-30"
   },
+  "marketing-and-growth/hattip-linkedin-os": {
+   "category": "marketing-and-growth",
+   "repo": "hattip-linkedin-os",
+   "url": "https://github.com/ChristianDiBratto25/hattip-linkedin-os",
+   "branch": "main",
+   "commit": "ad43ddeb0274002db521b5c47f7ff9570d52578d",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-01",
+   "description": "A LinkedIn strategy and writing system for founders. Upload it to the Claude app as a skill and it interviews you, builds your strategy and helps you write posts.A guided, local-first LinkedIn strategy and writing system for Claude Code.",
+   "stars": 60,
+   "github_checked": "2026-11-01"
+  },
   "marketing-and-growth/instagram-agent-skill": {
    "category": "marketing-and-growth",
    "repo": "instagram-agent-skill",
@@ -1428,6 +1454,19 @@
    "description": "Kapso agent skills for WhatsApp.",
    "stars": 194,
    "github_checked": "2026-10-30"
+  },
+  "marketing-and-growth/lychee": {
+   "category": "marketing-and-growth",
+   "repo": "lychee",
+   "url": "https://github.com/lycheeverse/lychee",
+   "branch": "master",
+   "commit": "d9d97b51e395bd72c6498e0c6c4943dcae7b410a",
+   "license": "Apache-2.0+MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!",
+   "stars": 4075,
+   "github_checked": "2026-11-01"
   },
   "marketing-and-growth/marketingskills": {
    "category": "marketing-and-growth",
@@ -1520,6 +1559,19 @@
    "stars": 9279,
    "github_checked": "2026-10-30"
   },
+  "marketing-and-growth/plausible-analytics": {
+   "category": "marketing-and-growth",
+   "repo": "plausible-analytics",
+   "url": "https://github.com/plausible/analytics",
+   "branch": "master",
+   "commit": "02cfac1517e1fef8178afe134a9b42f309f1aa77",
+   "license": "AGPL-3.0",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+   "stars": 29738,
+   "github_checked": "2026-11-01"
+  },
   "marketing-and-growth/ppt-master": {
    "category": "marketing-and-growth",
    "repo": "ppt-master",
@@ -1546,6 +1598,32 @@
    "stars": 1399,
    "github_checked": "2026-10-30"
   },
+  "marketing-and-growth/seonaut": {
+   "category": "marketing-and-growth",
+   "repo": "seonaut",
+   "url": "https://github.com/StJudeWasHere/seonaut",
+   "branch": "main",
+   "commit": "a67387fe63a291be2ba49dd02399f20e453eb8b5",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "Open source SEO audit tool.",
+   "stars": 849,
+   "github_checked": "2026-11-01"
+  },
+  "marketing-and-growth/serpbear": {
+   "category": "marketing-and-growth",
+   "repo": "serpbear",
+   "url": "https://github.com/towfiqi/serpbear",
+   "branch": "main",
+   "commit": "414ec8e441b1ae794ea7738c9e4c533a7c5e5dbc",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "Search Engine Position Rank Tracking App",
+   "stars": 2156,
+   "github_checked": "2026-11-01"
+  },
   "marketing-and-growth/umami": {
    "category": "marketing-and-growth",
    "repo": "umami",
@@ -1558,6 +1636,19 @@
    "description": "Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud.",
    "stars": 39783,
    "github_checked": "2026-10-30"
+  },
+  "marketing-and-growth/unlighthouse": {
+   "category": "marketing-and-growth",
+   "repo": "unlighthouse",
+   "url": "https://github.com/harlan-zw/unlighthouse",
+   "branch": "main",
+   "commit": "9a2147d6d98bbc750b7313f531856cc02322b23a",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-01",
+   "description": "Run Google Lighthouse on your entire site.",
+   "stars": 4929,
+   "github_checked": "2026-11-01"
   },
   "marketing-and-growth/youtube-agent-skill": {
    "category": "marketing-and-growth",
@@ -1649,6 +1740,19 @@
    "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
    "stars": 35378,
    "github_checked": "2026-10-30"
+  },
+  "research-and-scraping/crawl4ai": {
+   "category": "research-and-scraping",
+   "repo": "crawl4ai",
+   "url": "https://github.com/unclecode/crawl4ai",
+   "branch": "main",
+   "commit": "888299fb5f0b82181897dc0e61bfb4b036f0aea5",
+   "license": "Apache-2.0",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
+   "stars": 86696,
+   "github_checked": "2026-11-01"
   },
   "research-and-scraping/deer-flow": {
    "category": "research-and-scraping",
@@ -1883,6 +1987,19 @@
    "description": "A simple and easy-to-use fx sounds generator",
    "stars": 517,
    "github_checked": "2026-10-30"
+  },
+  "sound-effects/soundbox": {
+   "category": "sound-effects",
+   "repo": "soundbox",
+   "url": "https://github.com/HamSanders/soundbox",
+   "branch": "main",
+   "commit": "085e0ecef754734e8bc62d6126e51638872c14c6",
+   "license": "MIT",
+   "skills": 3,
+   "added": "2026-11-01",
+   "description": "Free, open-source, local alternative to ElevenLabs and Suno. AI sound effects, music with lyrics, text-to-speech and voice cloning on your own GPU (Stable Audio, ACE-Step and more). No account, no credits, offline. Windows/macOS app, HTTP API and a 21-tool MCP server for Claude Code and Cursor.",
+   "stars": 122,
+   "github_checked": "2026-11-01"
   },
   "sound-effects/soundcn": {
    "category": "sound-effects",
@@ -2284,6 +2401,19 @@
    "stars": 12539,
    "github_checked": "2026-10-30"
   },
+  "video-and-motion/bang-motion": {
+   "category": "video-and-motion",
+   "repo": "bang-motion",
+   "url": "https://github.com/bangtutorial/bang-motion",
+   "branch": "main",
+   "commit": "c1aa65e921c970d858705fcb4a53a8294d1a4131",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-01",
+   "description": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.",
+   "stars": 939,
+   "github_checked": "2026-11-01"
+  },
   "video-and-motion/chatterbox": {
    "category": "video-and-motion",
    "repo": "chatterbox",
@@ -2296,6 +2426,19 @@
    "description": "SoTA open-source TTS",
    "stars": 27410,
    "github_checked": "2026-10-30"
+  },
+  "video-and-motion/claude-video-effects": {
+   "category": "video-and-motion",
+   "repo": "claude-video-effects",
+   "url": "https://github.com/Vibha-Ramprakash/claude-video-effects",
+   "branch": "main",
+   "commit": "99c9a3393ee14d39bea155a05c73dc069f02f16f",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-01",
+   "description": "36 video effects for Claude Code: drop in a talking-head clip, type /effects orbit. Face tracking, behind-your-head layers. By @vibha.in.progress",
+   "stars": 527,
+   "github_checked": "2026-11-01"
   },
   "video-and-motion/claude-watch": {
    "category": "video-and-motion",
@@ -2393,13 +2536,13 @@
    "repo": "lemo-opuscar",
    "url": "https://github.com/lemomo-ai/lemo-opuscar",
    "branch": "main",
-   "commit": "e3cb16f63768c68693ff0e15171d6e755457cc32",
+   "commit": "bebbbe1aa92a3cb4bb6f83500e61b23a17d1aa00",
    "license": "MIT",
    "skills": 1,
    "added": "2026-10-29",
    "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
-   "stars": 9388,
-   "github_checked": "2026-10-30"
+   "stars": 10352,
+   "github_checked": "2026-11-01"
   },
   "video-and-motion/manim": {
    "category": "video-and-motion",
@@ -2439,6 +2582,19 @@
    "description": "13 Claude Code skills for launch-grade motion graphics. Every frame is code. No After Effects, no video generator.",
    "stars": 478,
    "github_checked": "2026-10-30"
+  },
+  "video-and-motion/motion-track": {
+   "category": "video-and-motion",
+   "repo": "motion-track",
+   "url": "https://github.com/zayyid123/motion-track",
+   "branch": "main",
+   "commit": "09af919446f150dcb78e80776cadd016ff353ba6",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "AI-powered studio for creating animated isometric stickers with a visual editor, motion timeline, and GIF, MP4 & transparent MOV export.",
+   "stars": 9,
+   "github_checked": "2026-11-01"
   },
   "video-and-motion/omniget": {
    "category": "video-and-motion",
@@ -2570,6 +2726,19 @@
    "stars": 203677,
    "github_checked": "2026-10-30"
   },
+  "web-animation/anime": {
+   "category": "web-animation",
+   "repo": "anime",
+   "url": "https://github.com/juliangarnier/anime",
+   "branch": "master",
+   "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "JavaScript animation engine",
+   "stars": 74155,
+   "github_checked": "2026-11-01"
+  },
   "web-animation/gsap": {
    "category": "web-animation",
    "repo": "gsap",
@@ -2619,6 +2788,19 @@
    "skills": 0,
    "added": "2026-10-29",
    "github_checked": ""
+  },
+  "web-animation/wawa-vfx": {
+   "category": "web-animation",
+   "repo": "wawa-vfx",
+   "url": "https://github.com/wass08/wawa-vfx",
+   "branch": "main",
+   "commit": "b280ce85c02edc13b833aa7247abb45e3d9ef836",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-01",
+   "description": "A simple and versatile VFX engine for Threejs & React Three Fiber",
+   "stars": 155,
+   "github_checked": "2026-11-01"
   }
  },
  "skills": [
@@ -5879,6 +6061,18 @@
    "hub_path": "skills/dev-workflow/codex-plugin-cc/gpt-5-4-prompting",
    "added": "2026-10-29",
    "bytes": 13945
+  },
+  {
+   "name": "floorplan",
+   "description": "Draw a floorplan of an app's codebase (one repo or several side by side), an interactive node-graph map where every subsystem, module, file and HTTP route has a human-readable name and a one-line description, connected by the imports and HTTP calls between them, at several zoom levels. It is saved as a self-contained floorplan/index.html in the codebase. Use whenever the user wants to visualize, map, diagram, document or get an architectural overview of a codebase, repo or monorepo, understand how their app works or is connected under the hood, onboard onto unfamiliar code, see how the frontend talks to the backend, or update an existing floorplan, even if they don't say \"visualize\". Also use it before any code exists: when the user shares a PRD, a spec or a description of something they want to build and asks what pieces it needs or how they'd fit together, it draws a blueprint, the same map planned from the document.",
+   "source": "dev-workflow/floorplan",
+   "upstream_path": "skills/floorplan",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/dev-workflow/floorplan/floorplan",
+   "added": "2026-11-01",
+   "bytes": 2514724
   },
   {
    "name": "autoplan",
@@ -9623,6 +9817,18 @@
    "bytes": 30919
   },
   {
+   "name": "hattip-linkedin-os",
+   "description": "Hat Tip's LinkedIn strategy and writing system for founders and executives. Use when someone says \"start my LinkedIn strategy\", wants a LinkedIn content strategy, TOF/MOF/BOF funnel plan, a month of post ideas, a content calendar, help writing or reviewing a LinkedIn post, a weekly content interview, timely topics for their ICP, or a review of their LinkedIn performance CSV.",
+   "source": "marketing-and-growth/hattip-linkedin-os",
+   "upstream_path": "hattip-linkedin-os",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/marketing-and-growth/hattip-linkedin-os/hattip-linkedin-os",
+   "added": "2026-11-01",
+   "bytes": 38444
+  },
+  {
    "name": "ig-audit",
    "description": "Post-mortem on what the user has already posted - which reels actually worked, why, and what to stop making. Use when the user pastes their Instagram insights or past posts and asks \"what's working\", \"why did this flop\", \"read my analytics\", \"audit my content\", or wants to know what to do more of.",
    "source": "marketing-and-growth/instagram-agent-skill",
@@ -11320,6 +11526,18 @@
    "hub_path": "skills/marketing-and-growth/roast-room/roast-room",
    "added": "2026-10-29",
    "bytes": 1160815
+  },
+  {
+   "name": "unlighthouse",
+   "description": "Run Google Lighthouse on every page of a site with the unlighthouse CLI, and fail CI on low scores with unlighthouse-ci. Use when a task mentions unlighthouse, unlighthouse-ci, site-wide Lighthouse scans, performance budgets in CI, unlighthouse.config.ts, defineUnlighthouseConfig, scanner.exclude, dynamic sampling, the authenticate hook, or a scan that never exits, skips pages, or refuses to clear its output folder.",
+   "source": "marketing-and-growth/unlighthouse",
+   "upstream_path": "packages/unlighthouse/skills/unlighthouse",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/marketing-and-growth/unlighthouse/unlighthouse",
+   "added": "2026-11-01",
+   "bytes": 8228
   },
   {
    "name": "yt-audit",
@@ -31153,6 +31371,42 @@
    "bytes": 328340
   },
   {
+   "name": "soundbox-sfx",
+   "description": "Generate sound effects, foley and ambience locally through the Soundbox MCP server (soundbox.generate / list_sounds / list_models). Use whenever the user wants a sound effect, game SFX, UI sound, ambience bed or any non-spoken audio, or asks to \"make a sound\", \"add sound effects\", \"generate a whoosh/impact/click\". Produces WAV files on disk with absolute paths.",
+   "source": "sound-effects/soundbox",
+   "upstream_path": "server/skills/soundbox-sfx",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/sound-effects/soundbox/soundbox-sfx",
+   "added": "2026-11-01",
+   "bytes": 7664
+  },
+  {
+   "name": "soundbox-sound-pass",
+   "description": "Do a full \"sound pass\" on a project — read the code/design of a game, app, video or prototype, derive the list of sound events it needs, generate every one through the Soundbox MCP server, drop the files into the project and wire them up. Use when the user says \"add sound to my game\", \"it needs SFX\", \"do an audio pass\", \"make all the sounds for this\", or hands you a project with silent interactions.",
+   "source": "sound-effects/soundbox",
+   "upstream_path": "server/skills/soundbox-sound-pass",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/sound-effects/soundbox/soundbox-sound-pass",
+   "added": "2026-11-01",
+   "bytes": 3967
+  },
+  {
+   "name": "soundbox-voice-story",
+   "description": "Write, voice and arrange spoken audio locally through the Soundbox MCP server — one-off narration with soundbox.speak, or a persistent multi-track \"story\" (create_story / add_lines / speak_story / export_story). Use whenever the user wants dialogue, narration, a voiceover, a scripted scene, a podcast segment, character lines for a game, or asks to \"read this aloud\", \"make a voiceover\", \"write a scene with two characters\". Produces WAV files on disk with absolute paths.",
+   "source": "sound-effects/soundbox",
+   "upstream_path": "server/skills/soundbox-voice-story",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/sound-effects/soundbox/soundbox-voice-story",
+   "added": "2026-11-01",
+   "bytes": 9133
+  },
+  {
    "name": "baseline-ui",
    "description": "Enforces an opinionated UI baseline to prevent AI-generated interface slop.",
    "source": "sound-effects/soundcn",
@@ -31769,6 +32023,30 @@
    "bytes": 1825
   },
   {
+   "name": "bang-motion",
+   "description": "Membangun motion graphic sinematik di browser (promo video, opener, intro, bumper, kinetic typography, explainer/video penjelasan bergambar 16:9 atau 9:16) memakai HTML + CSS + GSAP (+ Three.js bila perlu), dengan hasil yang bergerak seperti video sungguhan — bukan slide presentasi. Gunakan skill ini setiap kali user meminta \"video promo\", \"opener\", \"intro animasi\", \"motion graphic\", \"bumper\", \"kinetic typography\", \"animasi teks sinematik\", \"explainer\", \"video penjelasan\" (jurnalisme visual, kartun edukasi, kolase), atau menunjukkan referensi video promosi/explainer dan ingin dibuatkan versi web-nya — bahkan bila mereka tidak menyebut kata \"motion graphic\" secara eksplisit. Juga gunakan bila user mengeluh hasil animasi web \"seperti PPT/presentasi\" dan ingin lebih sinematik, atau ingin merender animasi web menjadi file video MP4, atau ingin explainer kartun/animasi dibangun LANGSUNG di After Effects lewat bridge/MCP Higgsfield.",
+   "source": "video-and-motion/bang-motion",
+   "upstream_path": ".",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/bang-motion/bang-motion",
+   "added": "2026-11-01",
+   "bytes": 2346582
+  },
+  {
+   "name": "effects",
+   "description": "Add any of 45 video effects to a talking-head video (orbit, spotlight, glass widgets, timeline, checklist, headline wall, comment box, phone fan, liquid glass graph, match-cut, iPhone toggles, LED sign, over-the-shoulder zoom, iMessage pop-ups, place-in-grid and more). Effects track the speaker's face and can sit behind their head. Use when the user types /effects, names one of the effects, or asks to add an effect, zoom, grade, sticker or animation to their video.",
+   "source": "video-and-motion/claude-video-effects",
+   "upstream_path": ".",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/claude-video-effects/effects",
+   "added": "2026-11-01",
+   "bytes": 3939286
+  },
+  {
    "name": "watch",
    "description": "Watch a video (URL or local path) like an editor. Extracts scene-change frames, pacing metrics (cuts/min, shot length), and a dense 0-10s hook microscope; pulls transcript from captions or Whisper. Produces an ingest-ready `report.md` and, after answering the user, optionally auto-ingests the analysis into your Obsidian vault (configurable via `$WATCH_VAULT_DIR`) — tied to *why* the user watched it.",
    "source": "video-and-motion/claude-watch",
@@ -32373,15 +32651,15 @@
   },
   {
    "name": "lemo-opuscar",
-   "description": "Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Chinese Ink Wash 中国水墨, Ukiyo-e 浮世绘, Whiteboard Explainer 白板讲解). Use when the user asks for a video, film, short, promo, explainer or animation (视频、短片、动画、宣传片) in a named style; when they want a film made about their own topic and haven't chosen a style (help them choose); or when they ask which film styles there are. Not for editing or converting existing video files.",
+   "description": "Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e 浮世绘, Satellite Briefing 卫星简报, Exploded Teardown 产品拆解). Use when the user asks for a video, film, short, promo, explainer or animation (视频、短片、动画、宣传片) in a named style, including explainers built from real material such as satellite imagery, laser scans, CAD files or archive scans (数据解说、科普、产品拆解), and new films cut from real archive footage and documents (剪辑与纪实, e.g. 用档案影像剪一支新闻片); when they want a film about their own topic and haven't chosen a style (help them choose); when they want to change a style into their own, make their own style from a blank page, or use a style they saved (改风格、从空白开始、我的风格); when they start the skill without saying what they want; or when they ask which film styles there are. Not for plain editing, trimming or converting the user's existing video files.",
    "source": "video-and-motion/lemo-opuscar",
-   "upstream_path": "plugin/skills/lemo-opuscar",
+   "upstream_path": "tools/directory",
    "status": "mirrored",
    "reason": "",
    "license": "MIT",
    "hub_path": "skills/video-and-motion/lemo-opuscar/lemo-opuscar",
    "added": "2026-10-29",
-   "bytes": 9234
+   "bytes": 126012
   },
   {
    "name": "moneyprinterturbo-video",

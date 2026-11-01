@@ -4,7 +4,7 @@
 script a reel, build a landing page, research a market, edit a video. New ones come out every day. SOYL Academy
 collects them, checks each licence, and keeps them here so anyone can find one and start using it.
 
-<!-- stats -->**1,799 skills** you can install from here, **932 more** listed with a link to their source, from **110 projects**. Updated 2026-10-30.<!-- /stats -->
+<!-- stats -->**1,807 skills** you can install from here, **932 more** listed with a link to their source, from **116 projects**. Updated 2026-11-01.<!-- /stats -->
 
 [Browse the catalog](CATALOG.md) · [Install a skill](#install-a-skill) · [Design language](design-language/) · [Add a skill](CONTRIBUTING.md)
 

@@ -15,6 +15,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Mirror of https://git.ffmpeg.org/ffmpeg.git | LGPL |
 | [manim](https://github.com/ManimCommunity/manim) | A community-maintained Python framework for creating mathematical animations. | MIT |
 | [mixamo-llm-mocap](https://github.com/squall01337/mixamo-llm-mocap) | Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent. | MIT |
+| [motion-track](https://github.com/zayyid123/motion-track) | AI-powered studio for creating animated isometric stickers with a visual editor, motion timeline, and GIF, MP4 & transparent MOV export. | MIT |
 | [PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) | Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom) | ISC |
 | [recordly](https://github.com/webadderallorg/Recordly) | Create polished demo videos without editing skills. Mac/Windows/Linux | AGPL-3.0 |
 | [vindex](https://github.com/vaibhav-space/vindex) | Open-source video compiler that turns videos into structured knowledge for AI agents. | MIT |
@@ -32,9 +33,11 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 
 | Project | What it is | Licence |
 |---|---|---|
+| [anime](https://github.com/juliangarnier/anime) | JavaScript animation engine | MIT |
 | [gsap](https://github.com/greensock/GSAP) | GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web | Standard 'no charge' license: https://gsap.com/standard-license. |
 | [lenis](https://github.com/darkroomengineering/lenis) | Smooth scroll as it should be | MIT |
 | [string-tune](https://www.npmjs.com/package/@fiddle-digital/string-tune) | — | none |
+| [wawa-vfx](https://github.com/wass08/wawa-vfx) | A simple and versatile VFX engine for Threejs & React Three Fiber | MIT |
 
 ## Creative coding
 
@@ -65,10 +68,14 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [chatwoot](https://github.com/chatwoot/chatwoot) | Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬 | MIT |
 | [harvey](https://github.com/ethanplusai/harvey) | Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex… | MIT |
 | [invoice-builder](https://github.com/piratuks/invoice-builder) | Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an… | MIT |
+| [lychee](https://github.com/lycheeverse/lychee) | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! | Apache-2.0+MIT |
 | [MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | AGPL-3.0 |
 | [oasis](https://github.com/camel-ai/oasis) | 🏝️ OASIS: Open Agent Social Interaction Simulations with One Million Agents. | Apache-2.0 |
 | [openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | AGPL-3.0 |
 | [PlacesToPostYourStartup](https://github.com/mmccaff/PlacesToPostYourStartup) | Compiled list of links from "Ask HN: Where can I post my startup to get beta users?" | CC0-1.0 |
+| [plausible-analytics](https://github.com/plausible/analytics) | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. | AGPL-3.0 |
+| [seonaut](https://github.com/StJudeWasHere/seonaut) | Open source SEO audit tool. | MIT |
+| [serpbear](https://github.com/towfiqi/serpbear) | Search Engine Position Rank Tracking App | MIT |
 | [TinyTroupe](https://github.com/microsoft/TinyTroupe) | LLM-powered multiagent persona simulation for imagination enhancement and business insights. | MIT |
 | [umami](https://github.com/umami-software/umami) | Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies, no surveillance, self-hosted or in the cloud. | MIT |
 
@@ -78,6 +85,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 |---|---|---|
 | [BambooAI](https://github.com/pgalko/BambooAI) | AI data analyst for transparent, reproducible analysis. Works step by step in Python, verifies the evidence behind its reports, and supports a wide selection of models, including local open-weight… | MIT |
 | [changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement… | Apache-2.0 |
+| [crawl4ai](https://github.com/unclecode/crawl4ai) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord… | Apache-2.0 |
 | [invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube | AGPL-3.0 |
 | [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | Fastest and cheapest web agent | MIT |
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | MIT |

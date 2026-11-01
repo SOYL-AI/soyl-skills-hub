@@ -1,6 +1,6 @@
 # lemo-opuscar
 
-Skills from [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) at commit [`e3cb16f`](https://github.com/lemomo-ai/lemo-opuscar/tree/e3cb16f63768c68693ff0e15171d6e755457cc32), copied into SOYL Hub on 2026-10-29. Licence: MIT.
+Skills from [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) at commit [`bebbbe1`](https://github.com/lemomo-ai/lemo-opuscar/tree/bebbbe1aa92a3cb4bb6f83500e61b23a17d1aa00), copied into SOYL Hub on 2026-10-29. Licence: MIT.
 
 > A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
 
@@ -8,7 +8,7 @@ All credit goes to the authors of lemomo-ai/lemo-opuscar. Each folder is the ups
 
 | Skill | What it does | Licence |
 |---|---|---|
-| [lemo-opuscar](lemo-opuscar/) | Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Chinese… | MIT |
+| [lemo-opuscar](lemo-opuscar/) | Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e… | MIT |
 
 Install one with the [skills CLI](https://github.com/vercel-labs/skills):
 

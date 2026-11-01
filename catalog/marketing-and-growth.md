@@ -2,7 +2,7 @@
 
 Copy, SEO, ads, launches, email, social media and sales.
 
-221 skills here and 5 linked to their source, from 14 projects. [All categories](../CATALOG.md)
+223 skills here and 5 linked to their source, from 16 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -334,6 +334,26 @@ Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wick
 |---|---|
 | [newroaster](../skills/marketing-and-growth/roast-room/newroaster/) | Use when someone wants to add a new advisor to the Roast Room, says "/newroaster", "add a roaster", "add a seat", "add [name] to the council", "build a seat for [name]"… |
 | [roast-room](../skills/marketing-and-growth/roast-room/roast-room/) | Use when a founder wants a hard business decision debated by a council of world-class operators, says "roast room", "put this in the Roast Room", "founder council"… |
+
+## hattip-linkedin-os
+
+[ChristianDiBratto25/hattip-linkedin-os](https://github.com/ChristianDiBratto25/hattip-linkedin-os) · MIT · ★ 60 · 1 here
+
+A LinkedIn strategy and writing system for founders. Upload it to the Claude app as a skill and it interviews you, builds your strategy and helps you write posts.A guided, local-first LinkedIn strategy and writing system for Claude Code.
+
+| Skill | What it does |
+|---|---|
+| [hattip-linkedin-os](../skills/marketing-and-growth/hattip-linkedin-os/hattip-linkedin-os/) | Hat Tip's LinkedIn strategy and writing system for founders and executives. Use when someone says "start my LinkedIn strategy", wants a LinkedIn content strategy… |
+
+## unlighthouse
+
+[harlan-zw/unlighthouse](https://github.com/harlan-zw/unlighthouse) · MIT · ★ 4.9k · 1 here
+
+Run Google Lighthouse on your entire site.
+
+| Skill | What it does |
+|---|---|
+| [unlighthouse](../skills/marketing-and-growth/unlighthouse/unlighthouse/) | Run Google Lighthouse on every page of a site with the unlighthouse CLI, and fail CI on low scores with unlighthouse-ci. Use when a task mentions unlighthouse… |
 
 ## kapso-whatsapp-skills
 

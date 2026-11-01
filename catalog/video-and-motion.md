@@ -2,7 +2,7 @@
 
 Reels, explainers, motion graphics, captions and editing video with code.
 
-197 skills here and 28 linked to their source, from 19 projects. [All categories](../CATALOG.md)
+199 skills here and 28 linked to their source, from 21 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -211,6 +211,26 @@ Edit videos with coding agents
 | [manim-video](../skills/video-and-motion/video-use/video-use/skills/manim-video/) | Production pipeline for mathematical and technical animations using Manim Community Edition. Creates 3Blue1Brown-style explainer videos, algorithm visualizations… |
 | [video-use](../skills/video-and-motion/video-use/video-use/) | Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles — for talking heads, montages, tutorials, travel, interviews… |
 
+## bang-motion
+
+[bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion) · MIT · ★ 939 · 1 here
+
+Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.
+
+| Skill | What it does |
+|---|---|
+| [bang-motion](../skills/video-and-motion/bang-motion/bang-motion/) | Membangun motion graphic sinematik di browser (promo video, opener, intro, bumper, kinetic typography, explainer/video penjelasan bergambar 16:9 atau 9:16) memakai HTML… |
+
+## claude-video-effects
+
+[Vibha-Ramprakash/claude-video-effects](https://github.com/Vibha-Ramprakash/claude-video-effects) · MIT · ★ 527 · 1 here
+
+36 video effects for Claude Code: drop in a talking-head clip, type /effects orbit. Face tracking, behind-your-head layers. By @vibha.in.progress
+
+| Skill | What it does |
+|---|---|
+| [effects](../skills/video-and-motion/claude-video-effects/effects/) | Add any of 45 video effects to a talking-head video (orbit, spotlight, glass widgets, timeline, checklist, headline wall, comment box, phone fan, liquid glass graph… |
+
 ## claude-watch
 
 [taoufik123-collab/claude-watch](https://github.com/taoufik123-collab/claude-watch) · MIT · ★ 1.1k · 1 here
@@ -223,13 +243,13 @@ Give Claude the ability to watch any video — scene-change frames + transcript 
 
 ## lemo-opuscar
 
-[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · MIT · ★ 9.4k · 1 here
+[lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · MIT · ★ 10.4k · 1 here
 
 A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
 
 | Skill | What it does |
 |---|---|
-| [lemo-opuscar](../skills/video-and-motion/lemo-opuscar/lemo-opuscar/) | Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Chinese… |
+| [lemo-opuscar](../skills/video-and-motion/lemo-opuscar/lemo-opuscar/) | Direct and produce a short film made entirely in code, in one of the styles of the Lemo-Opuscar library (e.g. Impasto Oil Painting 油画厚涂, Watercolor Brush 水彩笔刷, Ukiyo-e… |
 
 ## MoneyPrinterTurbo
 
