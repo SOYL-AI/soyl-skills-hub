@@ -2,7 +2,7 @@
 
 Taste, layout, type, colour, design systems, critique and studying great sites.
 
-51 skills here and 5 linked to their source, from 16 projects. [All categories](../CATALOG.md)
+51 skills here and 6 linked to their source, from 17 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -183,6 +183,16 @@ Awwwards-style scroll-driven 3D website skill for Claude Code (Three.js r170 + G
 | Skill | What it does |
 |---|---|
 | [awwwards ↗](https://github.com/tponscr-debug/claude-skill-awwwards) | Apply Awwwards-winning design principles. Use when designing UIs, creating frontends, or improving visual design. Triggers on frontend design, UI/UX work, styling, CSS… *(No licence: install it from the source.)* |
+
+## craft
+
+[gustavo-fior/craft](https://github.com/gustavo-fior/craft) · ★ 404 · 1 linked
+
+A small collection of design engineering concepts.
+
+| Skill | What it does |
+|---|---|
+| [craft-design-engineering ↗](https://github.com/gustavo-fior/craft/tree/main/skills/craft-design-engineering) | Design engineering concepts from Craft (craft.gustavofior.com) covering typography, color, layout, motion, sound, and data details that make interfaces feel right. Use… *(No licence: install it from the source.)* |
 
 ## diagram-design
 

@@ -1,2 +1,4 @@
 # Findings from the key and privacy check that a person looked at and found harmless.
 # One per line, as the sync prints them: <path>|<what>   e.g. skills/x/y/README.md|Google API key  # a documented example key
+dev-workflow/pya/skills/pya/scripts/_pya_common.py|Private key  # a "[redacted]" placeholder string the audit prints, not a key (checked 5 Nov 2026)
+dev-workflow/trailofbits-skills/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/references/vulnerabilities.md|Google API key  # a fake documented example, AIzaSyA1B2C3D4... (checked 5 Nov 2026)

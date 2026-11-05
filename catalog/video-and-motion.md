@@ -2,7 +2,7 @@
 
 Reels, explainers, motion graphics, captions and editing video with code.
 
-199 skills here and 28 linked to their source, from 21 projects. [All categories](../CATALOG.md)
+224 skills here and 32 linked to their source, from 27 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -159,6 +159,49 @@ Show it a video you love. Get a new video in the same style. An AI crew (Claude 
 | [title-sequence-3d](../skills/video-and-motion/motion-graphics-skills/title-sequence-3d/) | Make a cinematic 3D title sequence (8-15 seconds) in code with Claude Code and Three.js. A camera moves through a lit scene, such as a rainy street at night with brand… |
 | [vox-explainer](../skills/video-and-motion/motion-graphics-skills/vox-explainer/) | Make a short Vox-style documentary explainer (30-60 seconds) entirely in code with Claude Code. Torn paper, halftone texture, bold condensed type, motion on twos. Use… |
 
+## ffmpeg-skill
+
+[kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · MIT · ★ 4.5k · 13 here, 1 linked
+
+Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.
+
+| Skill | What it does |
+|---|---|
+| [building-python-mcp-servers](../skills/video-and-motion/ffmpeg-skill/building-python-mcp-servers/) | Builds robust Python MCP (Model Context Protocol) servers with FastMCP — tool design, error contracts, event-loop-safe blocking work, subprocess/CLI wrapping… |
+| [ci-pipeline-synthesizer](../skills/video-and-motion/ffmpeg-skill/ci-pipeline-synthesizer/) | Generate GitHub Actions CI/CD pipeline configurations for automated building and testing of library and package projects. Use when creating or updating CI workflows for… |
+| [concurrent-branches](../skills/video-and-motion/ffmpeg-skill/concurrent-branches/) | Resolve conflicts and merges when several branches are open against one repo at the same time — the hotspot files every change must touch (registry manifests, a single… |
+| [guarding-destructive-operations](../skills/video-and-motion/ffmpeg-skill/guarding-destructive-operations/) | Add and review preconditions on operations that delete, overwrite, rewrite history, or resolve a caller-supplied name to a filesystem path — refusing instead of warning… |
+| [keeping-git-repos-clean](../skills/video-and-motion/ffmpeg-skill/keeping-git-repos-clean/) | Prevents, detects, and remediates files that should never be committed — secrets (.env, API tokens, hardcoded credentials) and dev artifacts (build output, scratch… |
+| [managing-python-releases](../skills/video-and-motion/ffmpeg-skill/managing-python-releases/) | Manages Python library releases including semantic versioning, changelog maintenance (Keep a Changelog format), release automation with GitHub Actions, and deprecation… |
+| [reproducing-ci-locally](../skills/video-and-motion/ffmpeg-skill/reproducing-ci-locally/) | Run the CI gate on your machine so it agrees with the runner — deriving the exact command, paths, markers, and env from the workflow file instead of the Makefile… |
+| [reviewing-ffmpeg-skill-changes](../skills/video-and-motion/ffmpeg-skill/reviewing-ffmpeg-skill-changes/) | Review a change to the ffmpeg-skill repository for the failures its own contract makes possible — a claim in a result document that is true at one layer and false at the… |
+| [running-github-actions-efficiently](../skills/video-and-motion/ffmpeg-skill/running-github-actions-efficiently/) | Cut GitHub Actions minutes and wall-clock time without losing coverage — the OS billing multiplier (macOS 10x / Windows 2x / Linux 1x), trigger hygiene that stops… |
+| [shipping-across-surfaces](../skills/video-and-motion/ffmpeg-skill/shipping-across-surfaces/) | Land a change everywhere the same fact is stated — enumerating the full surface inventory (landing copy, docs, machine-readable summaries, changelog badges repeated… |
+| [shipping-build-artifacts](../skills/video-and-motion/ffmpeg-skill/shipping-build-artifacts/) | Make the build step a real gate on what you actually distribute — build scripts that warn and exit 0 on a missing input, size checks with only an upper bound… |
+| [verifying-external-behavior](../skills/video-and-motion/ffmpeg-skill/verifying-external-behavior/) | Confirms what a third-party library, remote API, build backend, or scraped document actually does before writing code that depends on it — throwaway probes that run in… |
+| [writing-defect-reports](../skills/video-and-motion/ffmpeg-skill/writing-defect-reports/) | Establish a finding before you publish it, and correct it after — headlines that overstate what actually reproduces at the layer a user sees, reporting code that no… |
+| [ffmpeg-skill ↗](https://github.com/kajisho5/ffmpeg-skill) | Edit video and audio with local FFmpeg: cut, join, reframe, speed, captions, overlays, silence removal, sync, loudness, HDR to SDR, platform exports and checks. Use… *(Too big to copy here (26 MB): install it from the source.)* |
+
+## openfilm
+
+[openfilm/openfilm](https://github.com/openfilm/openfilm) · MIT · ★ 4.7k · 11 here
+
+The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.
+
+| Skill | What it does |
+|---|---|
+| [collage](../skills/video-and-motion/openfilm/collage/) | Make motion graphics in a cut-paper collage style, with photos, paper and print cut out and put together by hand. Use for explainers, promos, stories, intros and social… |
+| [keynote](../skills/video-and-motion/openfilm/keynote/) | Make a product film in the style of a big tech launch keynote: the real product on stage, one confident claim at a time. Use for app, website, software and gadget… |
+| [long-to-short](../skills/video-and-motion/openfilm/long-to-short/) | Turn a long video (a talk, podcast, interview, lesson, livestream or vlog) into short vertical clips that each stand alone and hold attention from the first second. Use… |
+| [lyric-video](../skills/video-and-motion/openfilm/lyric-video/) | Make a lyric video for a song that the artist would release as the official one — a piece made for this one song, every word landing exactly on the voice. Use when the… |
+| [motion-graphics](../skills/video-and-motion/openfilm/motion-graphics/) | Make premium motion graphics (an explainer, a promo, a title sequence or a data story) designed and animated at the level of a top studio, for this subject alone. Use… |
+| [openfilm](../skills/video-and-motion/openfilm/openfilm/) | Make videos as web pages with OpenFilm. Use when the user asks for a video, motion graphics, an animation, a launch film, an explainer, a music video, to edit, cut… |
+| [presenter-pip](../skills/video-and-motion/openfilm/presenter-pip/) | Make a talking-head video where the content fills the screen and the presenter speaks from a small window: slides, screens, charts and pictures that follow what they… |
+| [replicate](../skills/video-and-motion/openfilm/replicate/) | Remake a reference video in OpenFilm, as close as the person wants it, from frame for frame to its structure, rhythm, look and motion carrying their own content. Use… |
+| [screen-demo](../skills/video-and-motion/openfilm/screen-demo/) | Turn a screen recording into a polished product demo or tutorial: the view follows the action, dead time is gone, every step is easy to see, and the product looks as… |
+| [vintage-film](../skills/video-and-motion/openfilm/vintage-film/) | Make the person's photos and clips into a memory film that looks shot on old film or kept as instant photos and prints. Use for memories and recaps (a trip, a birthday… |
+| [whiteboard](../skills/video-and-motion/openfilm/whiteboard/) | Make an explainer drawn on a board while a voice explains, every drawing and word drawn out as it is spoken. Use for lessons, micro-lectures, training, how-it-works and… |
+
 ## image-blaster
 
 [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster) · MIT · ★ 12.2k · 8 here
@@ -221,6 +264,16 @@ Agent skill for browser motion graphics — openers, promos, bumpers, kinetic ty
 |---|---|
 | [bang-motion](../skills/video-and-motion/bang-motion/bang-motion/) | Membangun motion graphic sinematik di browser (promo video, opener, intro, bumper, kinetic typography, explainer/video penjelasan bergambar 16:9 atau 9:16) memakai HTML… |
 
+## claude-shorts
+
+[AgriciDaniel/claude-shorts](https://github.com/AgriciDaniel/claude-shorts) · MIT · ★ 311 · 1 here
+
+Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping
+
+| Skill | What it does |
+|---|---|
+| [shorts](../skills/video-and-motion/claude-shorts/shorts/) | Interactive longform-to-shortform video creator. Extracts viral-ready short clips from long videos using Claude as the orchestrator. Transcribes with faster-whisper… |
+
 ## claude-video-effects
 
 [Vibha-Ramprakash/claude-video-effects](https://github.com/Vibha-Ramprakash/claude-video-effects) · MIT · ★ 527 · 1 here
@@ -271,6 +324,16 @@ Open-source download manager for courses (Udemy/Hotmart), YouTube, music & 1,800
 |---|---|
 | [ui-lint](../skills/video-and-motion/omniget/ui-lint/) | Run targeted rendered UI verification with lintapple (`pnpm lint:ui &lt;target>`). Use whenever modifying Svelte routes (`src/routes/`), UI components… |
 
+## code-animation-prompts
+
+[XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts) · Unknown · ★ 529 · 1 linked
+
+341 种代码动画风格提示词、196 张参考静帧与离线挑选器，封装为 Claude Code / Codex Skill，支持一键导入与 HTML 视频渲染。
+
+| Skill | What it does |
+|---|---|
+| [code-animation-prompts ↗](https://github.com/XiaoyeCodes/code-animation-prompts/tree/main/skills/code-animation-prompts) | 使用 341 种风格提示词和参考静帧制作代码动画、HTML 动效或视频。适用于按风格编号选型、组合视觉风格、把内容转成可编辑动画并渲染成片。 *(Licence unclear: install it from the source.)* |
+
 ## dramaclaw
 
 [dramaclaw/dramaclaw](https://github.com/dramaclaw/dramaclaw) · Elastic-2.0 · ★ 6.6k · 6 linked
@@ -296,6 +359,16 @@ A general-purpose AIGC video engine: script to finished film in one pipeline —
 |---|---|
 | [gbro-collage-broll ↗](https://github.com/pyang5166/gbro-collage-broll) | 将约 5 秒口播文稿、观点句或抽象概念做成高级 editorial halftone paper-collage / 半调纸拼贴 B-roll。用户说“collage b-roll”“纸拼贴… *(Too big to copy here (7 MB): install it from the source.)* |
 
+## ghost-editor
+
+[kurbaitaev/ghost-editor](https://github.com/kurbaitaev/ghost-editor) · MIT · ★ 215 · 1 linked
+
+Raw talking-head take in, finished reel out. Open-source AI video editor for Claude Code.
+
+| Skill | What it does |
+|---|---|
+| [ghost-editor ↗](https://github.com/kurbaitaev/ghost-editor) | AI video editor for talking-head reels. Turns a raw phone recording of someone talking to camera (retakes, pauses, false starts) into a finished vertical 1080x1920 reel… *(Too big to copy here (34 MB): install it from the source.)* |
+
 ## hypit
 
 [hypit-ai/hypit](https://github.com/hypit-ai/hypit) · Modified licence · ★ 26.5k · 1 linked
@@ -305,6 +378,16 @@ Clone any viral video with AI agents. Not just a script, the whole workflow: swa
 | Skill | What it does |
 |---|---|
 | [hypit ↗](https://github.com/hypit-ai/hypit/tree/main/skills/hypit) | Direct and produce videos with Hypit, primarily through generated media and authored components while incorporating briefs, references or supplied material; includes… *(Source-available licence: install it from the source.)* |
+
+## Maestro
+
+[Blizaine/Maestro](https://github.com/Blizaine/Maestro) · Unknown · ★ 914 · 1 linked
+
+An all-in-one, 100% local AI video, image, and music studio. Director mode plans full music videos and short films from a single prompt. Built on the WanGP pipeline. Install via Pinokio.
+
+| Skill | What it does |
+|---|---|
+| [maestro-promptbench ↗](https://github.com/Blizaine/Maestro/tree/main/app/promptbench/operator) | Run and review bounded Maestro prompt-enhancement experiments with installed local writers. Use for baseline comparisons, creative continuity evaluation, and… *(Non-commercial licence: install it from the source.)* |
 
 ## onetake
 

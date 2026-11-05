@@ -2,9 +2,25 @@
 
 Planning, testing, debugging, code review, memory and shipping.
 
-290 skills here and 1 linked to their source, from 17 projects. [All categories](../CATALOG.md)
+532 skills here and 15 linked to their source, from 31 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
+
+## googleworkspace-cli
+
+[googleworkspace/cli](https://github.com/googleworkspace/cli) · Apache-2.0 · ★ 32.1k · 95 here
+
+Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
+
+95 skills: see [the full list](dev-workflow--googleworkspace-cli.md).
+
+## trailofbits-skills
+
+[trailofbits/skills](https://github.com/trailofbits/skills) · CC0-1.0 · ★ 8k · 95 here
+
+Trail of Bits skills for security research, vulnerability detection, and audit workflows
+
+95 skills: see [the full list](dev-workflow--trailofbits-skills.md).
 
 ## gstack
 
@@ -265,6 +281,94 @@ An agentic skills framework & software development methodology that works.
 | [writing-plans](../skills/dev-workflow/superpowers/writing-plans/) | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [writing-skills](../skills/dev-workflow/superpowers/writing-skills/) | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 
+## bug-hunter
+
+[codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) · MIT · ★ 549 · 10 here, 1 linked
+
+Adversarial AI bug hunter with auto-fix skill for Claude Code, Cursor, Codex CLI, GitHub Copilot CLI, Kiro CLI, Opencode, Pi Coding Agent, and more. Multi-agent pipeline finds security vulnerabilities, logic errors, and runtime bugs — then fixes them autonomously on a safe branch.
+
+| Skill | What it does |
+|---|---|
+| [commit-security-scan](../skills/dev-workflow/bug-hunter/commit-security-scan/) | Scan code changes for security vulnerabilities using Bug Hunter-native artifacts and STRIDE context. Use whenever the user asks for PR security review, commit-diff… |
+| [doc-lookup](../skills/dev-workflow/bug-hunter/doc-lookup/) | Unified documentation lookup for Bug Hunter agents. Uses Context Hub (chub) as primary source with Context7 API fallback. Provides verified library/framework… |
+| [fixer](../skills/dev-workflow/bug-hunter/fixer/) | Surgical code fixer for Bug Hunter. Implements minimal, precise fixes for verified bugs. Uses doc-lookup (Context Hub + Context7) to verify correct API usage in patches… |
+| [hunter](../skills/dev-workflow/bug-hunter/hunter/) | Behavioral code analysis for Bug Hunter. Finds logic, security, concurrency, and contract defects with traced runtime triggers and structured JSON evidence. |
+| [recon](../skills/dev-workflow/bug-hunter/recon/) | Triage enrichment for Bug Hunter. Maps tech stack, trust, state, error, concurrency, and service boundaries without reclassifying triage's files or reporting bugs. |
+| [referee](../skills/dev-workflow/bug-hunter/referee/) | Final arbiter for Bug Hunter. Independently verifies behavioral findings, resolves Skeptic challenges, and calibrates severity and confidence. |
+| [security-review](../skills/dev-workflow/bug-hunter/security-review/) | Run a focused STRIDE-based security review using Bug Hunter-native artifacts. Use whenever the user asks for a full security audit, repository security review, weekly… |
+| [skeptic](../skills/dev-workflow/bug-hunter/skeptic/) | Adversarial reviewer for Bug Hunter. Challenges each behavioral finding against actual code, checks defenses, and preserves unresolved cases for independent review. |
+| [threat-model-generation](../skills/dev-workflow/bug-hunter/threat-model-generation/) | Generate or refresh a STRIDE-based threat model for the current repository using Bug Hunter-native artifacts. Use whenever the repository has no threat model yet, the… |
+| [vulnerability-validation](../skills/dev-workflow/bug-hunter/vulnerability-validation/) | Validate security findings for exploitability, reachability, and real-world impact using Bug Hunter-native findings artifacts. Use after security scans, before patch… |
+| [bug-hunter ↗](https://github.com/codexstar69/bug-hunter) | Precision-first adversarial bug hunting for runtime, logic, data, concurrency, and security defects. Uses deterministic risk triage, evidence-bounded retrieval… *(Too big to copy here (39 MB): install it from the source.)* |
+
+## defending-code-reference-harness
+
+[anthropics/defending-code-reference-harness](https://github.com/anthropics/defending-code-reference-harness) · Apache-2.0 · ★ 7.7k · 9 here
+
+Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+
+| Skill | What it does |
+|---|---|
+| [customize](../skills/dev-workflow/defending-code-reference-harness/customize/) | Adapt this C/C++ ASAN vulnerability pipeline to a different vulnerability class, target shape, language, or detection mechanism. Use when the user wants to port… |
+| [dnr-hunt](../skills/dev-workflow/defending-code-reference-harness/dnr-hunt/) | Proactive threat hunt over web/application logs — no alert in hand. Profiles the corpus, runs a hypothesis-driven hunt loop with a mandatory written ledger, confirms… |
+| [dnr-respond](../skills/dev-workflow/defending-code-reference-harness/dnr-respond/) | Incident response workup for a lead in hand — an alert, an IOC, or a /dnr-hunt finding. Scopes the lead across the logs, verdicts whether the attack succeeded… |
+| [patch](../skills/dev-workflow/defending-code-reference-harness/patch/) | Generate candidate fixes for verified security findings. Consumes TRIAGE.json (preferred), VULN-FINDINGS.json, INCIDENTS.json, or a vuln-pipeline results directory… |
+| [quickstart](../skills/dev-workflow/defending-code-reference-harness/quickstart/) | The front door for this repo. With no argument: a 30-second intro, then an offer to walk you through your first run on the canary target. With a question: answers it… |
+| [threat-model](../skills/dev-workflow/defending-code-reference-harness/threat-model/) | Build a threat model for a target codebase. Three modes: "interview" walks an application owner through the four-question framework and produces a threat model from… |
+| [triage](../skills/dev-workflow/defending-code-reference-harness/triage/) | Triage a batch of raw security findings. Verify each is real, collapse duplicates, re-rank by derived exploitability, and tag with an owner. Takes a directory or file of… |
+| [verify](../skills/dev-workflow/defending-code-reference-harness/verify/) | Verify harness changes end-to-end without docker — drive the real pinned CLI against a header-capturing stub server with the exact env resolve_auth_env() produces. |
+| [vuln-scan](../skills/dev-workflow/defending-code-reference-harness/vuln-scan/) | Static source-code vulnerability scan. Reads a target directory (and THREAT_MODEL.md if present), spawns parallel review subagents per focus area, and writes… |
+
+## Understand-Anything
+
+[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · MIT · ★ 90.6k · 9 here
+
+Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+
+| Skill | What it does |
+|---|---|
+| [understand](../skills/dev-workflow/Understand-Anything/understand/) | Analyze a codebase to produce an interactive knowledge graph for understanding architecture, components, and relationships |
+| [understand-chat](../skills/dev-workflow/Understand-Anything/understand-chat/) | Use when you need to ask questions about a codebase or understand code using a knowledge graph |
+| [understand-dashboard](../skills/dev-workflow/Understand-Anything/understand-dashboard/) | Launch the interactive web dashboard to visualize a codebase's knowledge graph |
+| [understand-diff](../skills/dev-workflow/Understand-Anything/understand-diff/) | Use when you need to analyze git diffs or pull requests to understand what changed, affected components, and risks |
+| [understand-domain](../skills/dev-workflow/Understand-Anything/understand-domain/) | Extract business domain knowledge from a codebase and generate an interactive domain flow graph. Works standalone (lightweight scan) or derives from an existing… |
+| [understand-explain](../skills/dev-workflow/Understand-Anything/understand-explain/) | Use when you need a deep-dive explanation of a specific file, function, or module in the codebase |
+| [understand-figma](../skills/dev-workflow/Understand-Anything/understand-figma/) | Analyze a Figma file via the Figma REST API and generate an interactive design knowledge graph (pages, screens, components, component sets, instances, design tokens)… |
+| [understand-knowledge](../skills/dev-workflow/Understand-Anything/understand-knowledge/) | Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering. |
+| [understand-onboard](../skills/dev-workflow/Understand-Anything/understand-onboard/) | Use when you need to generate an onboarding guide for new team members joining a project |
+
+## ghostsecurity-skills
+
+[ghostsecurity/skills](https://github.com/ghostsecurity/skills) · Apache-2.0 · ★ 437 · 8 here
+
+Ghost Security's collection of AppSec skills for AI coding agents
+
+| Skill | What it does |
+|---|---|
+| [ghost-exo](../skills/dev-workflow/ghostsecurity-skills/ghost-exo/) | The single interface for building, improving, and debugging exo workflows. Routes to one of three intents. BUILD takes a rough idea, or an agent template slug from the… |
+| [ghost-proxy](../skills/dev-workflow/ghostsecurity-skills/ghost-proxy/) | Starts and controls the reaper MITM proxy to capture, inspect, search, and replay HTTP/HTTPS traffic between clients and servers. Capabilities include starting/stopping… |
+| [ghost-repo-context](../skills/dev-workflow/ghostsecurity-skills/ghost-repo-context/) | Scans directory structure, detects projects, maps dependencies, and documents code organization into a repo.md file. Use when the user needs a codebase overview, project… |
+| [ghost-report](../skills/dev-workflow/ghostsecurity-skills/ghost-report/) | Ghost Security — combined security report. Aggregates findings from all scan skills (scan-deps, scan-secrets, scan-code) into a single prioritized report focused on the… |
+| [ghost-scan-code](../skills/dev-workflow/ghostsecurity-skills/ghost-scan-code/) | Ghost Security - SAST code scanner. Finds security vulnerabilities in source code by planning and executing targeted scans for issues like SQL injection, XSS, BOLA… |
+| [ghost-scan-deps](../skills/dev-workflow/ghostsecurity-skills/ghost-scan-deps/) | Ghost Security - Software Composition Analysis (SCA) scanner. Scans dependency lockfiles for known vulnerabilities, identifies CVEs, and generates findings with severity… |
+| [ghost-scan-secrets](../skills/dev-workflow/ghostsecurity-skills/ghost-scan-secrets/) | Ghost Security - Secrets and credentials scanner. Scans codebase for leaked API keys, tokens, passwords, and sensitive data. Detects hardcoded secrets and generates… |
+| [ghost-validate](../skills/dev-workflow/ghostsecurity-skills/ghost-validate/) | This skill should be used when the user asks to "validate a finding", "check if a vulnerability is real", "triage a security finding", "confirm a vulnerability"… |
+
+## cc-safety-net
+
+[kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) · MIT · ★ 1.9k · 6 here
+
+A pre-execution guard for AI coding agents. It blocks destructive Git and file system commands, plus common attempts to access sensitive files, before a tool call runs. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Cursor, DeepSeek Harness, Devin CLI, GitHub Copilot CLI, Grok Build…
+
+| Skill | What it does |
+|---|---|
+| [cc-safety-net](../skills/dev-workflow/cc-safety-net/cc-safety-net/) | Operate CC Safety Net: explain why a command was blocked, triage false positives, configure custom rulebooks, manage agent CLI integrations, and diagnose protection. |
+| [ccsn-find-simplifications](../skills/dev-workflow/cc-safety-net/ccsn-find-simplifications/) | Use when working in the cc-safety-net repo to find non-obvious simplification candidates: dead, duplicated, speculative, over-built, or contract-exceeding surfaces in… |
+| [ccsn-no-comments](../skills/dev-workflow/cc-safety-net/ccsn-no-comments/) | Use in the cc-safety-net repo when `bun run lint:comments` or `bun run check` reports a comment, a stale comment-allowlist entry, or a file it cannot parse, and before… |
+| [release-notes](../skills/dev-workflow/cc-safety-net/release-notes/) | Generate and publish concise, evidence-based notes in the body of the latest existing GitHub Release. Use only when the user explicitly invokes `$release-notes` or… |
+| [verify-ccsn](../skills/dev-workflow/cc-safety-net/verify-ccsn/) | Launch and drive the real cc-safety-net CLI — the hook decision path, explain, status/doctor/statusline, logs, rule and policy config, and the local policy GUI — against… |
+| [verify-project-tighten-only](../skills/dev-workflow/cc-safety-net/verify-project-tighten-only/) | Use in the cc-safety-net repo before finishing any change to how a project policy merges with the user policy or how a merged policy turns into protections… |
+
 ## ponytail
 
 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) · MIT · ★ 180k · 6 here
@@ -294,6 +398,20 @@ Makes your AI agent think like the laziest senior dev in the room. The best code
 | [repomix](../skills/dev-workflow/repomix/repomix/) | Pack and analyze codebases into AI-friendly single files using Repomix. Use when the user wants to explore repositories, analyze code structure, find patterns, check… |
 | [repomix-explorer](../skills/dev-workflow/repomix/repomix-explorer/) | Analyze or explore a codebase (remote or local repository) by packing it with the Repomix CLI, then reading and searching the generated output. Use when the user wants a… |
 | [website-maintainer](../skills/dev-workflow/repomix/website-maintainer/) | Use this skill when working on the Repomix documentation website in `website/` directory, including VitePress configuration, multi-language content, or translation… |
+
+## mise
+
+[jdx/mise](https://github.com/jdx/mise) · MIT · ★ 35.8k · 5 here
+
+dev tools, env vars, task runner
+
+| Skill | What it does |
+|---|---|
+| [entire-search](../skills/dev-workflow/mise/entire-search/) | Search Entire checkpoint history and transcripts with `entire search --json`. Use proactively when the user asks about previous work, commits, sessions, prompts, or… |
+| [jouet-init](../skills/dev-workflow/mise/jouet-init/) | Configure jouet for a project's actual build, test and agent workflows when setting it up or investigating why it is not helping. Inspect the project and timing history… |
+| [pr-description](../skills/dev-workflow/mise/pr-description/) | How to write or revise a mise pull request title and description. PR titles and bodies feed the release notes, so use this whenever opening a PR, editing a PR body, or… |
+| [registry-submission](../skills/dev-workflow/mise/registry-submission/) | Rules for adding a new tool or shorthand to mise's `registry/` — the popularity bar, the required user warning and popularity check, the PR's Popularity section, and… |
+| [update-aube](../skills/dev-workflow/mise/update-aube/) | Procedure for bumping the aube package manager that mise embeds for its npm backend (the `aube` and `aube-registry` crates). Use when updating aube, reviewing an aube… |
 
 ## rea
 
@@ -357,6 +475,16 @@ The open agent skills tool - npx skills
 | [pr-labeling](../skills/dev-workflow/vercel-skills-cli/pr-labeling/) | Classify a skills CLI pull request from its description and patch, while respecting existing labels. |
 | [triage](../skills/dev-workflow/vercel-skills-cli/triage/) | Identify focused, evidence-backed skills CLI bug fixes worth quuu's attention. |
 
+## agentguard
+
+[GoPlusSecurity/agentguard](https://github.com/GoPlusSecurity/agentguard) · MIT · ★ 489 · 1 here
+
+Security guard for AI agents — blocks malicious skills, prevents data leaks, protects secrets. 24 detection rules, runtime action evaluation, trust registry.
+
+| Skill | What it does |
+|---|---|
+| [agentguard](../skills/dev-workflow/agentguard/agentguard/) | GoPlus AgentGuard — AI agent security guard. Run /agentguard checkup for a full security health check, scans all installed skills, checks credentials, permissions, and… |
+
 ## andrej-karpathy-skills
 
 [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) · ★ 226.4k · 1 here
@@ -366,6 +494,16 @@ A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Kar
 | Skill | What it does |
 |---|---|
 | [karpathy-guidelines](../skills/dev-workflow/andrej-karpathy-skills/karpathy-guidelines/) | Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface… |
+
+## claude-code-owasp
+
+[agamm/claude-code-owasp](https://github.com/agamm/claude-code-owasp) · MIT · ★ 427 · 1 here
+
+Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks.
+
+| Skill | What it does |
+|---|---|
+| [owasp-security](../skills/dev-workflow/claude-code-owasp/owasp-security/) | Reviews code for security vulnerabilities and guides secure implementation using OWASP Top 10:2025, ASVS 5.0, the OWASP Top 10 for LLM Applications (2026), and the OWASP… |
 
 ## floorplan
 
@@ -377,6 +515,26 @@ See how your app actually fits together. An interactive, plain-English map of yo
 |---|---|
 | [floorplan](../skills/dev-workflow/floorplan/floorplan/) | Draw a floorplan of an app's codebase (one repo or several side by side), an interactive node-graph map where every subsystem, module, file and HTTP route has a… |
 
+## pya
+
+[AgriciDaniel/pya](https://github.com/AgriciDaniel/pya) · MIT · ★ 271 · 1 here
+
+PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist agents, a dated threat feed, verified findings, offline by default.
+
+| Skill | What it does |
+|---|---|
+| [pya](../skills/dev-workflow/pya/pya/) | Audits a codebase for security problems with parallel read-only specialist agents and a verifier pass. Covers code vulnerabilities, authorization, secrets, dependencies… |
+
+## security-audit-skill
+
+[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · MIT · ★ 59.4k · 1 here
+
+A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+| Skill | What it does |
+|---|---|
+| [security-audit](../skills/dev-workflow/security-audit-skill/security-audit/) | Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability… |
+
 ## skillspector
 
 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) · Apache-2.0 · ★ 23.3k · 1 here
@@ -386,3 +544,35 @@ Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns
 | Skill | What it does |
 |---|---|
 | [skill-inspector](../skills/dev-workflow/skillspector/skill-inspector/) | Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe… |
+
+## vbsec
+
+[tanviet12/vbsec](https://github.com/tanviet12/vbsec) · MIT · ★ 323 · 1 here
+
+Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 most common vulnerabilities in AI-written code and shows how to fix each one.
+
+| Skill | What it does |
+|---|---|
+| [vbs-scan-security](../skills/dev-workflow/vbsec/vbs-scan-security/) | Use when scanning code for security vulnerabilities. Use when user says "scan security", "kiểm tra bảo mật", "security audit", "review security", or invokes… |
+
+## GitNexus
+
+[abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) · PolyForm-Noncommercial · ★ 48.3k · 13 linked
+
+GitNexus: The Zero-Server Code Intelligence Engine
+
+| Skill | What it does |
+|---|---|
+| [gitnexus-cli ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-cli) | Use when the user needs to run GitNexus CLI commands like analyze/index a repo, check status, clean the index, generate a wiki, or list indexed repos. Examples: \"Index… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-debugging ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-debugging) | Use when the user is debugging a bug, tracing an error, or asking why something fails. Examples: \"Why is X failing?\", \"Where does this error come from?\", \"Trace… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-exploring ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-exploring) | Use when the user asks how code works, wants to understand architecture, trace execution flows, or explore unfamiliar parts of the codebase. Examples: \"How does X… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-guide ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-guide) | Use when the user asks about GitNexus itself — available tools, how to query the knowledge graph, MCP resources, graph schema, or workflow reference. Examples: \"What… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-impact-analysis ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-impact-analysis) | Use when the user wants to know what will break if they change something, or needs safety analysis before editing code. Examples: \"Is it safe to change X?\", \"What… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-lfg ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-lfg) | Use when the user wants the GitNexus engineering pipeline run end-to-end on a task: gitnexus-plan (plan depth chosen up front), a blocking gate to execute with… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-pdg-query ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-pdg-query) | Use when querying or extending GitNexus's PDG control/data-dependence surface (the `pdg_query` MCP tool, CDG/REACHING_DEF edges), or reasoning about \"what controls X\"… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-plan ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-plan) | Use when you need a deep, implementation-ready engineering plan for a code change — built from GitNexus graph intelligence, statement-level PDG analysis, and targeted… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-pr-swarm-review ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/.claude/skills/gitnexus-pr-swarm-review) | Run a GitNexus production-readiness pull request review using a coordinated reviewer swarm. *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-refactoring ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-refactoring) | Use when the user wants to rename, extract, split, move, or restructure code safely. Examples: \"Rename this function\", \"Extract this into a module\", \"Refactor this… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-review ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-review) | Review code changes with GitNexus from a GitHub PR URL or number, a branch/ref or commit range, or local staged, unstaged, and untracked changes. Use when the user asks… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-taint-analysis ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-taint-analysis) | Use when working on, reviewing, or extending GitNexus's CFG/taint/PDG subsystem (the `--pdg` layers), or when reasoning about source→sink data-flow findings. Examples… *(Non-commercial licence: install it from the source.)* |
+| [gitnexus-work ↗](https://github.com/abhigyanpatwari/GitNexus/tree/main/gitnexus-claude-plugin/skills/gitnexus-work) | Use when executing an engineering plan produced by gitnexus-plan (or a small bounded task directly) — implements step by step with GitNexus impact checks before every… *(Non-commercial licence: install it from the source.)* |

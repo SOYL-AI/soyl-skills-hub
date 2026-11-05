@@ -2,7 +2,7 @@
 
 Copy, SEO, ads, launches, email, social media and sales.
 
-223 skills here and 5 linked to their source, from 16 projects. [All categories](../CATALOG.md)
+226 skills here and 6 linked to their source, from 19 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -324,6 +324,17 @@ OpenPanel is an open-source web and product analytics platform, an open-source a
 | [pr](../skills/marketing-and-growth/openpanel/pr/) | Push the current branch, open a PR (or pick up the existing one), then wait for CodeRabbit's review and work through its comments, fixing the valid ones and replying to… |
 | [sdk-testbed](../skills/marketing-and-growth/openpanel/sdk-testbed/) | Verify a change to the JavaScript SDKs (packages/sdks/sdk, packages/sdks/web and the wrappers built on them) the way a customer site would hit it - drive apps/testbed in… |
 
+## growth-engineer
+
+[GetBrew/growth-engineer](https://github.com/GetBrew/growth-engineer) · MIT · ★ 255 · 2 here
+
+Open-source catalog of go-to-market tools and workflows, written as markdown files any agent can run. Includes a read-only MCP server.
+
+| Skill | What it does |
+|---|---|
+| [add-workflow](../skills/marketing-and-growth/growth-engineer/add-workflow/) | Write a growth.engineer workflow — workflows/&lt;name>.md, a growth play as up to ten steps across catalog tools, with the outcome the user gets, its one motion and the… |
+| [research-company](../skills/marketing-and-growth/growth-engineer/research-company/) | Research a company from its domain and write its growth.engineer catalog files — companies/&lt;handle>/company.md (who they are and how an agent connects: MCP server… |
+
 ## roast-room
 
 [nateherkai/roast-room](https://github.com/nateherkai/roast-room) · MIT · ★ 1.4k · 2 here
@@ -334,6 +345,16 @@ Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wick
 |---|---|
 | [newroaster](../skills/marketing-and-growth/roast-room/newroaster/) | Use when someone wants to add a new advisor to the Roast Room, says "/newroaster", "add a roaster", "add a seat", "add [name] to the council", "build a seat for [name]"… |
 | [roast-room](../skills/marketing-and-growth/roast-room/roast-room/) | Use when a founder wants a hard business decision debated by a council of world-class operators, says "roast room", "put this in the Roast Room", "founder council"… |
+
+## codex-first-customer-finder-skill
+
+[Kappaemme-git/codex-first-customer-finder-skill](https://github.com/Kappaemme-git/codex-first-customer-finder-skill) · MIT · ★ 1.2k · 1 here
+
+A Codex skill that finds evidence-backed potential first customers from recent public signals.
+
+| Skill | What it does |
+|---|---|
+| [first-customer-finder](../skills/marketing-and-growth/codex-first-customer-finder-skill/first-customer-finder/) | Find evidence-backed potential first customers, beta users, or design partners from public demand signals. Use for product-specific prospect research, qualified… |
 
 ## hattip-linkedin-os
 
@@ -377,3 +398,13 @@ AI turns documents or topics into real, native PowerPoint decks—with native sh
 | Skill | What it does |
 |---|---|
 | [ppt-master ↗](https://github.com/hugohe3/ppt-master/tree/main/skills/ppt-master) | AI-driven presentation workflow for generating editable PPTX decks and slides, reconstructing page visuals, creating reusable Brand/Style/Layout/Deck workspaces, filling… *(Too big to copy here (40 MB): install it from the source.)* |
+
+## slides_maker
+
+[addsumtech/slides_maker](https://github.com/addsumtech/slides_maker) · MIT · ★ 649 · 1 linked
+
+Turn papers, code, and docs into presentation-ready, natively editable PPTX in Codex / Claude Code. Native charts and equations, speaker notes, click-build animations, and an independent critic review before delivery. Comes with a visual-language template library, updated continuously.
+
+| Skill | What it does |
+|---|---|
+| [slide-maker ↗](https://github.com/addsumtech/slides_maker/tree/main/skills/slide-maker) | Build, redesign, and critique clean, presentation-grade slide decks (.pptx) for any audience — research/lab meetings, work status updates, conference talks, stakeholder… *(Too big to copy here (18 MB): install it from the source.)* |

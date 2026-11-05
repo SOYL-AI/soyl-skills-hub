@@ -2,7 +2,7 @@
 
 Sound effects and interface audio.
 
-13 skills here and 0 linked to their source, from 3 projects. [All categories](../CATALOG.md)
+13 skills here and 2 linked to their source, from 4 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -45,3 +45,14 @@ Ears for coding agents: let AI hear, review and make sound. CPU-only, open sourc
 |---|---|
 | [earshot](../skills/sound-effects/earshot/earshot/) | Listen with earshot whenever you must judge, choose, trim, verify or compare sound you cannot hear - picking a sound effect, music or ambience from candidates, finding… |
 | [real-sound](../skills/sound-effects/earshot/real-sound/) | Build premium, realistic soundtracks for code-made videos and animations from real licensed recordings - launch films, product and feature videos, UI walkthroughs, logo… |
+
+## clipwing-skills
+
+[Clipwing/skills](https://github.com/Clipwing/skills) · ★ 69 · 2 linked
+
+Claude Skills for video editing
+
+| Skill | What it does |
+|---|---|
+| [hyperframes-to-after-effects ↗](https://github.com/Clipwing/skills/tree/main/skills/hyperframes-to-after-effects) | Convert a HyperFrames project (HTML/GSAP video compositions) into an editable Adobe After Effects project (.aep) with real layers and keyframes, not a rendered video… *(No licence: install it from the source.)* |
+| [real-sfx ↗](https://github.com/Clipwing/skills/tree/main/skills/real-sfx) | Sound design for motion videos with REAL recorded sounds from the user's own libraries (a sorted main pack of whooshes, hits, risers, pops, chimes, keystrokes, foley… *(No licence: install it from the source.)* |

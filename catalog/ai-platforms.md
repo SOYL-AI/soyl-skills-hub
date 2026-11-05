@@ -2,7 +2,7 @@
 
 Skills that ship with agent frameworks, RAG systems and model tooling.
 
-130 skills here and 1 linked to their source, from 8 projects. [All categories](../CATALOG.md)
+170 skills here and 34 linked to their source, from 11 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -139,6 +139,64 @@ Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learnin
 | [workshop-style](../skills/ai-platforms/OpenMAIC/workshop-style/) | Hands-on workshop — the learner works through the course instead of watching it, with an exercise or a check every couple of pages, short slides that only set up the… |
 | [zone-of-proximal-development](../skills/ai-platforms/OpenMAIC/zone-of-proximal-development/) | Design a coherent assessment-and-practice lesson using zone-of-proximal-development principles: independent diagnosis, targeted review, supported practice, fresh… |
 
+## mem0
+
+[mem0ai/mem0](https://github.com/mem0ai/mem0) · Apache-2.0 · ★ 68.4k · 22 here
+
+The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.
+
+| Skill | What it does |
+|---|---|
+| [context-loader](../skills/ai-platforms/mem0/context-loader/) | Search memories from earlier Pi sessions in this repository. Use it when earlier work may already explain the code, error, decision, or command you need, so you can… |
+| [forget](../skills/ai-platforms/mem0/forget/) | Delete the Mem0 memories stored for this repository and this user. Use when the user asks to forget, clear, wipe, or delete memories. |
+| [mem0](../skills/ai-platforms/mem0/mem0/) | Mem0 Platform SDK for adding persistent memory to AI applications. TRIGGER when: user mentions "mem0", "MemoryClient", "memory layer", "remember user preferences"… |
+| [mem0-cli](../skills/ai-platforms/mem0/mem0-cli/) | Mem0 CLI -- the command-line interface for mem0 memory operations. TRIGGER when: user mentions "mem0 cli", "mem0 command line", "@mem0/cli", "mem0-cli", "pip install… |
+| [mem0-context-loader](../skills/ai-platforms/mem0/mem0-context-loader/) | Search memories from earlier OpenCode sessions in this repository. Use it when earlier work may already explain the code, error, decision, or command you need, so you… |
+| [mem0-forget](../skills/ai-platforms/mem0/mem0-forget/) | Deletes memories by search query or memory ID with confirmation before removal. Use when removing outdated decisions, incorrect memories, sensitive data, or cleaning up… |
+| [mem0-integrate](../skills/ai-platforms/mem0/mem0-integrate/) | Integrate Mem0 into an existing repository using a goal-driven, TDD pipeline. Detects the repo's language automatically and asks the user to pick between Mem0 Platform… |
+| [mem0-oss-to-platform](../skills/ai-platforms/mem0/mem0-oss-to-platform/) | Plan, then execute, a migration of a project from the mem0 open-source / self-hosted SDK (local `Memory` class) to the mem0 Platform / hosted SDK (`MemoryClient`)… |
+| [mem0-remember](../skills/ai-platforms/mem0/mem0-remember/) | Stores a memory verbatim from user input with appropriate type classification and metadata. Use when the user says remember this, save this, store this, note that, or… |
+| [mem0-scope](../skills/ai-platforms/mem0/mem0-scope/) | Views or changes the default memory scope (project, session, or global) used when saving and searching memories. Use when the user wants to control whether memories are… |
+| [mem0-search](../skills/ai-platforms/mem0/mem0-search/) | Searches memories and displays compact one-liner results, or looks up a specific memory by ID. Use for quick memory lookups, checking if a decision was recorded… |
+| [mem0-status](../skills/ai-platforms/mem0/mem0-status/) | Diagnoses mem0 connectivity, API key validity, and memory read/write functionality. Use when memory operations fail, searches return empty, add_memory errors occur, or… |
+| [mem0-test-integration](../skills/ai-platforms/mem0/mem0-test-integration/) | Verify a Mem0 integration produced by /mem0-integrate. Runs in the same workspace on the same branch (loose coupling) — installs dependencies, runs the repo's native… |
+| [mem0-tour](../skills/ai-platforms/mem0/mem0-tour/) | Browses all stored memories grouped by category with full content display. Use when reviewing all project memories, exploring stored knowledge, onboarding to a project… |
+| [mem0-vercel-ai-sdk](../skills/ai-platforms/mem0/mem0-vercel-ai-sdk/) | Mem0 provider for Vercel AI SDK (@mem0/vercel-ai-provider). TRIGGER when: user mentions "vercel ai sdk", "@mem0/vercel-ai-provider", "createMem0", "retrieveMemories"… |
+| [memory-triage](../skills/ai-platforms/mem0/memory-triage/) | Persistent long-term memory protocol powered by mem0. Evaluate conversations for durable facts worth storing via memory_add. Handles identity, preferences, decisions… |
+| [pause](../skills/ai-platforms/mem0/pause/) | Pause Mem0 memory capture on this machine. Use when the user wants to stop memories being recorded, for example for private work or experiments. |
+| [remember](../skills/ai-platforms/mem0/remember/) | Acknowledge a "remember this" request and make sure it is captured well. Use when the user explicitly asks to remember, note, or save something for future sessions. |
+| [resume](../skills/ai-platforms/mem0/resume/) | Resume Mem0 memory capture after it was paused with /mem0:pause. |
+| [search](../skills/ai-platforms/mem0/search/) | Search memories from earlier Antigravity sessions in this repository. Use it when earlier work may already explain the code, error, decision, or command you need, so you… |
+| [status](../skills/ai-platforms/mem0/status/) | Show whether Mem0 memory is working in this repository, covering configuration, capture state, pending flushes, and whether the Mem0 API key is valid. Use when the user… |
+| [tour](../skills/ai-platforms/mem0/tour/) | Browses all stored memories grouped by category with full content display. Use when reviewing all memories, exploring stored knowledge, onboarding to a new session, or… |
+
+## openai-agents-python
+
+[openai/openai-agents-python](https://github.com/openai/openai-agents-python) · MIT · ★ 30.5k · 18 here
+
+A lightweight, powerful framework for multi-agent workflows
+
+| Skill | What it does |
+|---|---|
+| [code-change-verification](../skills/ai-platforms/openai-agents-python/code-change-verification/) | Run the required final formatting, lint, type, and test checks after eligible SDK changes pass review. |
+| [credit-note-fixer](../skills/ai-platforms/openai-agents-python/credit-note-fixer/) | Fix the tiny credit-note formatting bug and rerun the exact targeted test command. |
+| [csv-workbench](../skills/ai-platforms/openai-agents-python/csv-workbench/) | Analyze CSV files in /mnt/data and return concise numeric summaries. |
+| [docs-sync](../skills/ai-platforms/openai-agents-python/docs-sync/) | Audit or update English SDK documentation against the requested implementation scope. |
+| [examples-run-analysis](../skills/ai-platforms/openai-agents-python/examples-run-analysis/) | Analyze logs and source from a completed manual examples run. Never execute or control examples. |
+| [final-release-review](../skills/ai-platforms/openai-agents-python/final-release-review/) | Assess a Python SDK release candidate or release plan against the previous release and recommend ship or block. |
+| [implementation-final-review](../skills/ai-platforms/openai-agents-python/implementation-final-review/) | Review completed implementation changes before final verification. Use when repository policy requires independent review or the user explicitly requests it. |
+| [implementation-kickoff](../skills/ai-platforms/openai-agents-python/implementation-kickoff/) | Carry implementation through an isolated worktree and local handoff. Use only when this skill is explicitly invoked. |
+| [implementation-strategy](../skills/ai-platforms/openai-agents-python/implementation-strategy/) | Choose supported scope and compatibility boundaries for SDK behavior changes; revisit when feedback changes the design. |
+| [maintainer-review](../skills/ai-platforms/openai-agents-python/maintainer-review/) | Assess a GitHub issue or PR for demonstrated need, supported alternatives, correctness, and maintainer action. Desk review only. |
+| [openai-knowledge](../skills/ai-platforms/openai-agents-python/openai-knowledge/) | Retrieve authoritative OpenAI API and platform documentation when an integration or claim needs current external evidence. |
+| [playwright](../skills/ai-platforms/openai-agents-python/playwright/) | Use when the task requires capturing or automating a real browser from the terminal. |
+| [pr-draft-summary](../skills/ai-platforms/openai-agents-python/pr-draft-summary/) | Prepare the required local PR title, description, and branch suggestion after eligible implementation work is complete. |
+| [prior-auth-packet-builder](../skills/ai-platforms/openai-agents-python/prior-auth-packet-builder/) | Build a concise prior authorization packet from local case files and payer policy docs. |
+| [release-candidate-prep](../skills/ai-platforms/openai-agents-python/release-candidate-prep/) | Prepare a local Python SDK release candidate in a dedicated worktree. Use only when explicitly invoked with a version. |
+| [runtime-behavior-probe](../skills/ai-platforms/openai-agents-python/runtime-behavior-probe/) | Plan controlled runtime probes when explicitly invoked; execute only after the required probe approval. |
+| [sensitive-logging-audit](../skills/ai-platforms/openai-agents-python/sensitive-logging-audit/) | Audit or fix sensitive-data exposure in Python SDK diagnostics, exceptions, logging, and telemetry. |
+| [test-coverage-improver](../skills/ai-platforms/openai-agents-python/test-coverage-improver/) | Measure Python SDK coverage or address measured coverage gaps. Use for coverage audits and metric regressions, not routine test additions. |
+
 ## langflow
 
 [langflow-ai/langflow](https://github.com/langflow-ai/langflow) · MIT · ★ 156.1k · 11 here
@@ -208,3 +266,45 @@ DSPy: The framework for programming—not prompting—language models
 | Skill | What it does |
 |---|---|
 | [writing-release-notes](../skills/ai-platforms/dspy/writing-release-notes/) | Drafts DSPy release notes from maintainer-selected highlights and a verified, complete Git release range. Use when preparing or updating stable, beta, or… |
+
+## sylph
+
+[getnao/sylph](https://github.com/getnao/sylph) · ★ 218 · 33 linked
+
+The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.
+
+| Skill | What it does |
+|---|---|
+| [blog-writer ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/blog-writer) | — *(No licence: install it from the source.)* |
+| [brand-designer ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/brand-designer) | — *(No licence: install it from the source.)* |
+| [brand-guidelines ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/brand-guidelines) | — *(No licence: install it from the source.)* |
+| [chief-of-staff ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/chief-of-staff) | — *(No licence: install it from the source.)* |
+| [cmo ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/cmo) | — *(No licence: install it from the source.)* |
+| [create-campaign ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/create-campaign) | — *(No licence: install it from the source.)* |
+| [create-contract ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/create-contract) | Generate a customer-specific enterprise service agreement by filling in the standard template with deal details. *(No licence: install it from the source.)* |
+| [create-issue ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/create-issue) | — *(No licence: install it from the source.)* |
+| [crm ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/crm) | — *(No licence: install it from the source.)* |
+| [customer-report ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/customer-report) | — *(No licence: install it from the source.)* |
+| [customer-success ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/customer-success) | — *(No licence: install it from the source.)* |
+| [email-writer ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/email-writer) | — *(No licence: install it from the source.)* |
+| [event-manager ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/event-manager) | — *(No licence: install it from the source.)* |
+| [executive-assistant ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/executive-assistant) | — *(No licence: install it from the source.)* |
+| [head-of-data ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/head-of-data) | Head of Data agent - creates reportings and ad-hoc analytics using nao MCP tools. Always use ask_nao to create conversations that persist in nao. *(No licence: install it from the source.)* |
+| [head-of-sales ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/head-of-sales) | — *(No licence: install it from the source.)* |
+| [hr-screening ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/hr-screening) | — *(No licence: install it from the source.)* |
+| [investor-update ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/investor-update) | — *(No licence: install it from the source.)* |
+| [linkedin ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/linkedin) | — *(No licence: install it from the source.)* |
+| [newsletter ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/newsletter) | — *(No licence: install it from the source.)* |
+| [product-manager ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/product-manager) | — *(No licence: install it from the source.)* |
+| [reddit ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/reddit) | — *(No licence: install it from the source.)* |
+| [review-contract ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/review-contract) | Review a contract against standard negotiation positions - flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer… *(No licence: install it from the source.)* |
+| [slack-community ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/slack-community) | — *(No licence: install it from the source.)* |
+| [substack-writer ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/substack-writer) | — *(No licence: install it from the source.)* |
+| [sylph-create-skill ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/sylph-create-skill) | Create a new skill from scratch. Generates the SKILL.md, registers it in AGENTS.md, and sets up the content folder structure. *(No licence: install it from the source.)* |
+| [sylph-setup ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/sylph-setup) | Personalize Sylph to your company. Ask the company name, then derive everything from the web - CONTEXT.md, brand voice, team, ICP, and standing instructions. *(No licence: install it from the source.)* |
+| [sylph-setup-agent ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/sylph-setup-agent) | Set up an AI agent by validating her scope, schedule, and delivery channel. Run as `/sylph-setup-agent &lt;agent-name>` or `/sylph-setup-agent all`. *(No licence: install it from the source.)* |
+| [sylph-setup-skill ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/sylph-setup-skill) | Set up a specific Sylph skill by auto-pulling examples from the web, deriving insights, and configuring the skill. Run as `/sylph-setup-skill &lt;skill-name>`. *(No licence: install it from the source.)* |
+| [update-docs ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/update-docs) | Detect user-facing features in recently merged PRs and open a PR in the docs repo adding the missing documentation. *(No licence: install it from the source.)* |
+| [website ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/website) | — *(No licence: install it from the source.)* |
+| [x ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/x) | — *(No licence: install it from the source.)* |
+| [zero-inbox ↗](https://github.com/getnao/sylph/tree/main/.claude/skills/zero-inbox) | — *(No licence: install it from the source.)* |

@@ -13,12 +13,17 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) | A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model | MIT |
 | [Drift](https://github.com/CutWire-Studios/Drift) | Drift is a free, open-source, beginner-friendly desktop video editor built with Qt 6 and FFmpeg. | GPL-3.0 |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Mirror of https://git.ffmpeg.org/ffmpeg.git | LGPL |
+| [freefield](https://github.com/neuregex/freefield) | — | MIT |
 | [manim](https://github.com/ManimCommunity/manim) | A community-maintained Python framework for creating mathematical animations. | MIT |
 | [mixamo-llm-mocap](https://github.com/squall01337/mixamo-llm-mocap) | Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent. | MIT |
+| [motion-skills](https://github.com/iart-ai/motion-skills) | 50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By… | MIT |
 | [motion-track](https://github.com/zayyid123/motion-track) | AI-powered studio for creating animated isometric stickers with a visual editor, motion timeline, and GIF, MP4 & transparent MOV export. | MIT |
+| [MotionClone](https://github.com/blixvip/MotionClone) | Rebuild a reference video as an editable HyperFrames project, compare the match against the original, and export an MP4. | none |
 | [PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) | Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom) | ISC |
 | [recordly](https://github.com/webadderallorg/Recordly) | Create polished demo videos without editing skills. Mac/Windows/Linux | AGPL-3.0 |
 | [vindex](https://github.com/vaibhav-space/vindex) | Open-source video compiler that turns videos into structured knowledge for AI agents. | MIT |
+| [whisper](https://github.com/openai/whisper) | Robust Speech Recognition via Large-Scale Weak Supervision | MIT |
+| [whisperX](https://github.com/m-bain/whisperX) | WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization) | BSD-2-Clause |
 | [whiteboard-animation-vi](https://github.com/letuandat131/whiteboard-animation-vi) | Whiteboard animations with subject-first coloring, ink-aware color clusters, animated real hands, and a local Gradio UI. Developed in Vietnam. | CC0-1.0 |
 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader | Unlicense |
 
@@ -36,6 +41,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [anime](https://github.com/juliangarnier/anime) | JavaScript animation engine | MIT |
 | [gsap](https://github.com/greensock/GSAP) | GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web | Standard 'no charge' license: https://gsap.com/standard-license. |
 | [lenis](https://github.com/darkroomengineering/lenis) | Smooth scroll as it should be | MIT |
+| [lottie-web](https://github.com/airbnb/lottie-web) | Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/ | MIT |
 | [string-tune](https://www.npmjs.com/package/@fiddle-digital/string-tune) | — | none |
 | [wawa-vfx](https://github.com/wass08/wawa-vfx) | A simple and versatile VFX engine for Threejs & React Three Fiber | MIT |
 
@@ -58,6 +64,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [Lightswind-UI-Library](https://github.com/codewithMUHILAN/Lightswind-UI-Library) | The AI-native CLI-first React component library. 160+ animated, accessible, production-ready components with MCP Server support for Cursor, Claude & GitHub Copilot. Copy-paste architecture — you own… | MIT |
 | [react-bits](https://github.com/DavidHDev/react-bits) | The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents. | Commons-Clause |
 | [refine](https://github.com/refinedev/refine) | A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility. | MIT |
+| [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs) | Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light | MIT |
 | [unlumen-ui-docs](https://github.com/leovvx/unlumen-ui-docs) | Open-source documentation and public component registry for unlumen UI | MIT |
 
 ## Marketing and growth
@@ -71,6 +78,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [lychee](https://github.com/lycheeverse/lychee) | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! | Apache-2.0+MIT |
 | [MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | AGPL-3.0 |
 | [oasis](https://github.com/camel-ai/oasis) | 🏝️ OASIS: Open Agent Social Interaction Simulations with One Million Agents. | Apache-2.0 |
+| [oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm) | GTM agent for technical founders. Pay-per-result. Two surfaces: terminal CLI + local web dashboard. | MIT |
 | [openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | AGPL-3.0 |
 | [PlacesToPostYourStartup](https://github.com/mmccaff/PlacesToPostYourStartup) | Compiled list of links from "Ask HN: Where can I post my startup to get beta users?" | CC0-1.0 |
 | [plausible-analytics](https://github.com/plausible/analytics) | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. | AGPL-3.0 |
@@ -86,6 +94,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [BambooAI](https://github.com/pgalko/BambooAI) | AI data analyst for transparent, reproducible analysis. Works step by step in Python, verifies the evidence behind its reports, and supports a wide selection of models, including local open-weight… | MIT |
 | [changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement… | Apache-2.0 |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord… | Apache-2.0 |
+| [honest-thumbnails](https://github.com/851-labs/honest-thumbnails) | Chrome extension that replaces YouTube's clickbait thumbnails with a real frame from the middle of the video. | MIT |
 | [invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube | AGPL-3.0 |
 | [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | Fastest and cheapest web agent | MIT |
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | MIT |
@@ -98,6 +107,8 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [code-server](https://github.com/coder/code-server) | VS Code in the browser | MIT |
 | [compass](https://github.com/AgriciDaniel/compass) | Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in the vault. | MIT |
 | [DigUp](https://github.com/ARahim3/DigUp) | Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2. | MIT |
+| [Edge-Drop](https://github.com/Deepender25/Edge-Drop) | Edge-Drop is a clipboard shelf on the edge of your screen. Hover to open it. Drag files and images into any app, click to copy text and links. Free and open-source for Windows. | Apache-2.0 |
+| [foreman](https://github.com/thruwire/foreman) | An agent supervisor and software factory foreman powered by decision models | MIT |
 | [github-mcp-server](https://github.com/github/github-mcp-server) | GitHub's official MCP Server | MIT |
 | [graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing… | Apache-2.0+MIT |
 | [grok-build](https://github.com/xai-org/grok-build) | SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible. | Apache-2.0 |
@@ -117,6 +128,9 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [company-brain](https://github.com/supermemoryai/company-brain) | Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work. | Apache-2.0 |
 | [crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. | MIT |
 | [esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent) | Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak. | MIT |
+| [graphiti](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Apache-2.0 |
+| [laya](https://github.com/NandhaKishorM/laya) | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per… | Apache-2.0 |
+| [letta](https://github.com/letta-ai/letta) | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | Apache-2.0 |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | MIT |
 | [open-glean](https://github.com/hydra-db/open-glean) | An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done. | Apache-2.0 |
 | [openjev](https://github.com/razorback16/openjev) | Open, Jev-compatible System One decision server on DiffusionGemma | Apache-2.0 |
@@ -132,6 +146,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. | Non-commercial |
 | [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | Official code repo for the O'Reilly Book - "Hands-On Large Language Models" | Apache-2.0 |
 | [llm-course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. | Apache-2.0 |
+| [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step | Apache-2.0 |
 | [Made-With-ML](https://github.com/GokuMohandas/Made-With-ML) | Learn how to develop, deploy and iterate on production-grade ML applications. | MIT |
 | [minimind](https://github.com/jingyaogong/minimind) | 🧠 Train a 64M-parameter LLM from scratch in just 2h! | Apache-2.0 |
 | [ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all | MIT |
@@ -156,6 +171,8 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 |---|---|---|
 | [awesome](https://github.com/sindresorhus/awesome) | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones] | CC0-1.0 |
 | [awesome-agents](https://github.com/kyrolabs/awesome-agents) | 🤖 Awesome list of AI Agents | none |
+| [awesome-claude-plugins](https://github.com/quemsah/awesome-claude-plugins) | Automated index of Claude Code plugins and adoption metrics across GitHub repositories, powered by a Node.js/TypeScript crawler | none |
+| [awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) | Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文. | CC0-1.0 |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | MIT |
 | [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | A topic-centric list of HQ open datasets. | MIT |
 | [free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev | none |

@@ -2,7 +2,7 @@
 
 three.js, WebGPU, shaders and 3D on the web.
 
-4 skills here and 10 linked to their source, from 3 projects. [All categories](../CATALOG.md)
+4 skills here and 11 linked to their source, from 4 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -27,6 +27,14 @@ Rebuild the object in a reference image as a code-only, procedural, quality-gate
 | Skill | What it does |
 |---|---|
 | [img2threejs](../skills/creative-coding/img2threejs/img2threejs/) | Turn an object or character reference image into a quality-gated, animation-ready procedural Three.js model built in code. Use for image-to-3D reconstruction… |
+
+## claude-pxl
+
+[augusto-scarvalho/claude-pxl](https://github.com/augusto-scarvalho/claude-pxl) · MIT · ★ 229 · 1 linked
+
+| Skill | What it does |
+|---|---|
+| [pxl-pixel-art ↗](https://github.com/augusto-scarvalho/claude-pxl) | Creates pixel art (game sprites, characters, animations, items, icons, tiles and tilesets, scenes, sprite sheets) with pxl, a compact JavaScript DSL that renders PNGs… *(Too big to copy here (64 MB): install it from the source.)* |
 
 ## threejs-skills
 
