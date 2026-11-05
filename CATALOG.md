@@ -1,6 +1,6 @@
 # Catalog
 
-2143 skills you can install from this repo, and 988 more listed with a link to their source, from 146 projects. Updated 2026-11-05.
+2142 skills you can install from this repo, and 988 more listed with a link to their source, from 145 projects. Updated 2026-11-05.
 
 | Category | Here | Linked | What's in it |
 |---|---:|---:|---|
@@ -10,7 +10,7 @@
 | [Creative coding](catalog/creative-coding.md) | 4 | 11 | three.js, WebGPU, shaders and 3D on the web. |
 | [UI components](catalog/ui-components.md) | 30 | 8 | Component libraries, icons and interface kits. |
 | [Marketing and growth](catalog/marketing-and-growth.md) | 226 | 6 | Copy, SEO, ads, launches, email, social media and sales. |
-| [Research and scraping](catalog/research-and-scraping.md) | 124 | 7 | Web and paper research, notebooks, scraping and second brains. |
+| [Research and scraping](catalog/research-and-scraping.md) | 123 | 7 | Web and paper research, notebooks, scraping and second brains. |
 | [Developer workflow](catalog/dev-workflow.md) | 532 | 15 | Planning, testing, debugging, code review, memory and shipping. |
 | [AI platforms](catalog/ai-platforms.md) | 170 | 34 | Skills that ship with agent frameworks, RAG systems and model tooling. |
 | [Learning](catalog/learning.md) | 6 | 1 | Skills from courses and tutorials on agents and AI. |

@@ -2,7 +2,7 @@
 
 Web and paper research, notebooks, scraping and second brains.
 
-124 skills here and 7 linked to their source, from 11 projects. [All categories](../CATALOG.md)
+123 skills here and 7 linked to their source, from 10 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -99,16 +99,6 @@ Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean 
 | Skill | What it does |
 |---|---|
 | [convert-documents-to-markdown](../skills/research-and-scraping/anydoc/convert-documents-to-markdown/) | Convert Word (.doc, .docx), PowerPoint (.ppt, .pptx), Excel (.xls, .xlsx), OpenDocument (.odt, .ods, .odp), RTF, EPUB, CSV, and PDF files to GitHub-Flavored Markdown… |
-
-## google-maps-scraper
-
-[gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) · MIT · ★ 7k · 1 here
-
-scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place
-
-| Skill | What it does |
-|---|---|
-| [google-maps-scraper](../skills/research-and-scraping/google-maps-scraper/google-maps-scraper/) | Find businesses, leads, emails, reviews, ratings, and contact details from Google Maps. Use for requests such as "find dentists in Berlin", "scrape Google Maps", "get… |
 
 ## notebooklm-skill
 

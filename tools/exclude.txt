@@ -6,4 +6,5 @@ video-and-motion/faceless  # its one skill (kept in three copies) imitates well-
 skill-collections/everything-claude-code/skills/osint-investigation  # researching individual people
 skill-collections/awesome-claude-skills/composio-skills/twocaptcha-automation  # solving CAPTCHAs
 research-and-scraping/google-maps-scraper-kit  # scrapes Google Maps, against Google's terms (Sid, 5 Nov 2026)
+research-and-scraping/google-maps-scraper  # gosom's: scrapes Google Maps for business emails and contacts, against Google's terms (Sid, 5 Nov 2026)
 marketing-and-growth/DeskcommCRM  # its WhatsApp option uses anti-ban throttling (Sid, 5 Nov 2026)

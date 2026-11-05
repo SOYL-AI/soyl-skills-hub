@@ -2195,19 +2195,6 @@
    "stars": 31335,
    "github_checked": "2026-10-30"
   },
-  "research-and-scraping/google-maps-scraper": {
-   "category": "research-and-scraping",
-   "repo": "google-maps-scraper",
-   "url": "https://github.com/gosom/google-maps-scraper",
-   "branch": "main",
-   "commit": "903b96d7aa8863188022c04db220e44f3218c860",
-   "license": "MIT",
-   "skills": 1,
-   "added": "2026-10-29",
-   "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
-   "stars": 6998,
-   "github_checked": "2026-10-30"
-  },
   "research-and-scraping/honest-thumbnails": {
    "category": "research-and-scraping",
    "repo": "honest-thumbnails",
@@ -17768,18 +17755,6 @@
    "hub_path": "skills/research-and-scraping/gbrain/webhook-transforms",
    "added": "2026-10-29",
    "bytes": 3070
-  },
-  {
-   "name": "google-maps-scraper",
-   "description": "Find businesses, leads, emails, reviews, ratings, and contact details from Google Maps. Use for requests such as \"find dentists in Berlin\", \"scrape Google Maps\", \"get local business leads\", or \"collect Google Maps reviews\". Runs the open-source scraper locally with Docker and guides nontechnical users through setup, monitoring, and results.",
-   "source": "research-and-scraping/google-maps-scraper",
-   "upstream_path": "skills/google-maps-scraper",
-   "status": "mirrored",
-   "reason": "",
-   "license": "MIT",
-   "hub_path": "skills/research-and-scraping/google-maps-scraper/google-maps-scraper",
-   "added": "2026-10-29",
-   "bytes": 40464
   },
   {
    "name": "last30days",
