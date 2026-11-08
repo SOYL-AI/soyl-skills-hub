@@ -2,7 +2,7 @@
 
 Reels, explainers, motion graphics, captions and editing video with code.
 
-224 skills here and 32 linked to their source, from 27 projects. [All categories](../CATALOG.md)
+227 skills here and 32 linked to their source, from 28 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -231,6 +231,18 @@ Effort free video editing!
 | [auto-editor-effects](../skills/video-and-motion/auto-editor/auto-editor-effects/) | Apply actions and animations to sections of a video/audio with auto-editor — change speed, duck or fade volume, de-ess, zoom/Ken Burns, rotate/spin, draw boxes, overlay… |
 | [auto-editor-export](../skills/video-and-motion/auto-editor/auto-editor-export/) | Export auto-editor's edit or microphone recording to a video editor (Premiere, DaVinci Resolve, Final Cut Pro, ShotCut, Kdenlive), to individual clips, or to auto-editor… |
 | [auto-editor-transcribe](../skills/video-and-motion/auto-editor/auto-editor-transcribe/) | Transcribe a media file or live microphone to text or subtitles with auto-editor's whisper subcommand, then edit by spoken content — cut to keep (or drop) sections whose… |
+
+## gl-transitions
+
+[gl-transitions/gl-transitions](https://github.com/gl-transitions/gl-transitions) · MIT · ★ 2.2k · 3 here
+
+The open collection of GL Transitions
+
+| Skill | What it does |
+|---|---|
+| [gl-transitions](../skills/video-and-motion/gl-transitions/gl-transitions/) | Adds image and video transitions (fades, wipes, zooms, glitches, page curls...) from gl-transitions, an open collection of 125 GLSL shaders, with SkSL, GLSL ES 3.00… |
+| [promo-video](../skills/video-and-motion/gl-transitions/promo-video/) | Makes a short promotional video of gl-transitions for social media (Instagram Reels, TikTok, YouTube Shorts, X), for example to announce new transitions, with the Promo… |
+| [transition-naming](../skills/video-and-motion/gl-transitions/transition-naming/) | Chooses and checks the name of a gl-transitions transition, which is its file name in transitions/ and its identifier in the npm, Rust, Swift and Android packages. Use… |
 
 ## autoclip
 

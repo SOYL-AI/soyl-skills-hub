@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-08",
  "hub": "SOYL-AI/soyl-skills-hub",
  "sources": {
   "ai-platforms/OpenHands": {
@@ -482,6 +482,19 @@
    "stars": 1189,
    "github_checked": "2026-10-30"
   },
+  "creative-coding/pixelfx": {
+   "category": "creative-coding",
+   "repo": "pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "branch": "main",
+   "commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-08",
+   "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "stars": 6025,
+   "github_checked": "2026-11-08"
+  },
   "creative-coding/sketchbook": {
    "category": "creative-coding",
    "repo": "sketchbook",
@@ -494,6 +507,19 @@
    "description": "A page-flipping sketchbook of Singapore. One static HTML file: drag to turn the page, drag the magnifier across it.",
    "stars": 690,
    "github_checked": "2026-10-30"
+  },
+  "creative-coding/teardown": {
+   "category": "creative-coding",
+   "repo": "teardown",
+   "url": "https://github.com/elvarofficial/teardown",
+   "branch": "main",
+   "commit": "a91262ac1109051e014662d42ecb0b7bc1f113b1",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-08",
+   "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "stars": 2619,
+   "github_checked": "2026-11-08"
   },
   "creative-coding/three.js": {
    "category": "creative-coding",
@@ -1402,6 +1428,19 @@
    "description": "The open agent skills tool - npx skills",
    "stars": 37134,
    "github_checked": "2026-10-30"
+  },
+  "dev-workflow/visual-explainer": {
+   "category": "dev-workflow",
+   "repo": "visual-explainer",
+   "url": "https://github.com/nicobailon/visual-explainer",
+   "branch": "main",
+   "commit": "9d5f880b7e8e0a9a80c890b8e1bb6918b68481ad",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-08",
+   "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+   "stars": 10878,
+   "github_checked": "2026-11-08"
   },
   "dev-workflow/wordcraft": {
    "category": "dev-workflow",
@@ -3009,6 +3048,19 @@
    "description": "Raw talking-head take in, finished reel out. Open-source AI video editor for Claude Code.",
    "stars": 215,
    "github_checked": "2026-11-05"
+  },
+  "video-and-motion/gl-transitions": {
+   "category": "video-and-motion",
+   "repo": "gl-transitions",
+   "url": "https://github.com/gl-transitions/gl-transitions",
+   "branch": "master",
+   "commit": "531feb85ade7d7402d8636f6331adcd1663a4616",
+   "license": "MIT",
+   "skills": 3,
+   "added": "2026-11-08",
+   "description": "The open collection of GL Transitions",
+   "stars": 2236,
+   "github_checked": "2026-11-08"
   },
   "video-and-motion/hyperframes": {
    "category": "video-and-motion",
@@ -6000,6 +6052,29 @@
    "hub_path": "skills/creative-coding/img2threejs/img2threejs",
    "added": "2026-10-29",
    "bytes": 4977584
+  },
+  {
+   "name": "pixelfx",
+   "description": "Make pixel art effects and sprite animations in code with the pixelfx library, which has 244 ready-made ones, acted out by a character who winds up, freezes on contact and recovers (fire, explosions, water, ice, lightning, sci-fi, melee, impacts, projectiles, spawn and death, arcane, holy, shadow, status, nature, weather, UI, pickups, transitions, critters) to drop into a game, recolor, export as sprite sheets or remix, plus a draft, render, look, refine loop that makes new ones look hand-animated. Use when someone wants pixel art VFX, sprite animations or sprite sheets, game juice, a specific effect (\"a frost nova for my mage\", \"a coin pickup sparkle\"), wants to use or export a pixelfx effect in Godot, Unity, Phaser or a canvas game, or wants their pixel effects to look better.",
+   "source": "creative-coding/pixelfx",
+   "upstream_path": "skills/pixelfx",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/creative-coding/pixelfx/pixelfx",
+   "added": "2026-11-08",
+   "bytes": 11393
+  },
+  {
+   "name": "teardown",
+   "description": "Build an interactive 3D simulator of a real machine or mechanism (an engine, a landing gear, a walking linkage, a pump, a gearbox) as one offline HTML page people can take apart, with live panels driven by the same model that moves the parts, a button for every subsystem, cutaways, camera views and an auto tour that hands control to the visitor; then record it frame by frame to a 60 fps video with a synced procedural score. Use when someone asks how a machine works, wants a \"visual explainer\", a \"simulator\", a \"cutaway\", an \"exploded view\" or an \"interactive 3D lesson\", or wants a 3D object shown working rather than described.",
+   "source": "creative-coding/teardown",
+   "upstream_path": ".",
+   "status": "link",
+   "reason": "Too big to copy here (16 MB)",
+   "license": "MIT",
+   "added": "2026-11-08",
+   "bytes": 15630337
   },
   {
    "name": "threejs-animation",
@@ -12763,6 +12838,18 @@
    "hub_path": "skills/dev-workflow/vercel-skills-cli/triage",
    "added": "2026-10-29",
    "bytes": 7621
+  },
+  {
+   "name": "visual-explainer",
+   "description": "Generate self-contained HTML visual explanations for systems, code changes, plans, data, and technical concepts. Use for diagrams, architecture overviews, diff or plan reviews, project recaps, comparison tables, slide decks, animated explainers, narrated MP4 videos, and other visual explanations.",
+   "source": "dev-workflow/visual-explainer",
+   "upstream_path": "plugins/visual-explainer",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/dev-workflow/visual-explainer/visual-explainer",
+   "added": "2026-11-08",
+   "bytes": 1130532
   },
   {
    "name": "agent-browser",
@@ -36911,6 +36998,42 @@
    "license": "MIT",
    "added": "2026-11-05",
    "bytes": 33949424
+  },
+  {
+   "name": "gl-transitions",
+   "description": "Adds image and video transitions (fades, wipes, zooms, glitches, page curls...) from gl-transitions, an open collection of 125 GLSL shaders, with SkSL, GLSL ES 3.00, WGSL and Metal versions of those that translate (see compatibility.json). Use when the user wants a transition between two images, video clips, slides or scenes in WebGL, WebGPU, Skia (CanvasKit, React Native Skia), Remotion, editly, FFmpeg, Rust, Swift (Metal, AVFoundation) or Android, or names a gl-transition.",
+   "source": "video-and-motion/gl-transitions",
+   "upstream_path": "skills/gl-transitions",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/gl-transitions/gl-transitions",
+   "added": "2026-11-08",
+   "bytes": 28350
+  },
+  {
+   "name": "promo-video",
+   "description": "Makes a short promotional video of gl-transitions for social media (Instagram Reels, TikTok, YouTube Shorts, X), for example to announce new transitions, with the Promo composition of the Remotion example. Use when asked for a promo, teaser, announcement or social media video of transitions.",
+   "source": "video-and-motion/gl-transitions",
+   "upstream_path": ".claude/skills/promo-video",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/gl-transitions/promo-video",
+   "added": "2026-11-08",
+   "bytes": 5143
+  },
+  {
+   "name": "transition-naming",
+   "description": "Chooses and checks the name of a gl-transitions transition, which is its file name in transitions/ and its identifier in the npm, Rust, Swift and Android packages. Use when adding a transition, renaming one, or reviewing a pull request that adds or renames a file in transitions/.",
+   "source": "video-and-motion/gl-transitions",
+   "upstream_path": ".claude/skills/transition-naming",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/gl-transitions/transition-naming",
+   "added": "2026-11-08",
+   "bytes": 3479
   },
   {
    "name": "canopy-part-title",

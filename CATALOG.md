@@ -1,17 +1,17 @@
 # Catalog
 
-2142 skills you can install from this repo, and 988 more listed with a link to their source, from 145 projects. Updated 2026-11-05.
+2147 skills you can install from this repo, and 989 more listed with a link to their source, from 149 projects. Updated 2026-11-08.
 
 | Category | Here | Linked | What's in it |
 |---|---:|---:|---|
-| [Video and motion](catalog/video-and-motion.md) | 224 | 32 | Reels, explainers, motion graphics, captions and editing video with code. |
+| [Video and motion](catalog/video-and-motion.md) | 227 | 32 | Reels, explainers, motion graphics, captions and editing video with code. |
 | [Design](catalog/design-skills.md) | 51 | 6 | Taste, layout, type, colour, design systems, critique and studying great sites. |
 | [Web animation](catalog/web-animation.md) | 34 | 0 | GSAP, scroll-driven motion and animation for websites. |
-| [Creative coding](catalog/creative-coding.md) | 4 | 11 | three.js, WebGPU, shaders and 3D on the web. |
+| [Creative coding](catalog/creative-coding.md) | 5 | 12 | three.js, WebGPU, shaders and 3D on the web. |
 | [UI components](catalog/ui-components.md) | 30 | 8 | Component libraries, icons and interface kits. |
 | [Marketing and growth](catalog/marketing-and-growth.md) | 226 | 6 | Copy, SEO, ads, launches, email, social media and sales. |
 | [Research and scraping](catalog/research-and-scraping.md) | 123 | 7 | Web and paper research, notebooks, scraping and second brains. |
-| [Developer workflow](catalog/dev-workflow.md) | 532 | 15 | Planning, testing, debugging, code review, memory and shipping. |
+| [Developer workflow](catalog/dev-workflow.md) | 533 | 15 | Planning, testing, debugging, code review, memory and shipping. |
 | [AI platforms](catalog/ai-platforms.md) | 170 | 34 | Skills that ship with agent frameworks, RAG systems and model tooling. |
 | [Learning](catalog/learning.md) | 6 | 1 | Skills from courses and tutorials on agents and AI. |
 | [Sound](catalog/sound-effects.md) | 13 | 2 | Sound effects and interface audio. |
@@ -28,6 +28,12 @@
 
 | Skill | Category | Added |
 |---|---|---|
+| [transition-naming](skills/video-and-motion/gl-transitions/transition-naming/) | Video and motion | 2026-11-08 |
+| [promo-video](skills/video-and-motion/gl-transitions/promo-video/) | Video and motion | 2026-11-08 |
+| [gl-transitions](skills/video-and-motion/gl-transitions/gl-transitions/) | Video and motion | 2026-11-08 |
+| [visual-explainer](skills/dev-workflow/visual-explainer/visual-explainer/) | Developer workflow | 2026-11-08 |
+| [teardown ↗](https://github.com/elvarofficial/teardown) | Creative coding | 2026-11-08 |
+| [pixelfx](skills/creative-coding/pixelfx/pixelfx/) | Creative coding | 2026-11-08 |
 | [pixijs-ticker](skills/web-animation/pixijs/pixijs-ticker/) | Web animation | 2026-11-05 |
 | [pixijs-scene-text](skills/web-animation/pixijs/pixijs-scene-text/) | Web animation | 2026-11-05 |
 | [pixijs-scene-sprite](skills/web-animation/pixijs/pixijs-scene-sprite/) | Web animation | 2026-11-05 |
@@ -62,12 +68,6 @@
 | [openfilm](skills/video-and-motion/openfilm/openfilm/) | Video and motion | 2026-11-05 |
 | [motion-graphics](skills/video-and-motion/openfilm/motion-graphics/) | Video and motion | 2026-11-05 |
 | [lyric-video](skills/video-and-motion/openfilm/lyric-video/) | Video and motion | 2026-11-05 |
-| [long-to-short](skills/video-and-motion/openfilm/long-to-short/) | Video and motion | 2026-11-05 |
-| [keynote](skills/video-and-motion/openfilm/keynote/) | Video and motion | 2026-11-05 |
-| [collage](skills/video-and-motion/openfilm/collage/) | Video and motion | 2026-11-05 |
-| [ghost-editor ↗](https://github.com/kurbaitaev/ghost-editor) | Video and motion | 2026-11-05 |
-| [writing-defect-reports](skills/video-and-motion/ffmpeg-skill/writing-defect-reports/) | Video and motion | 2026-11-05 |
-| [verifying-external-behavior](skills/video-and-motion/ffmpeg-skill/verifying-external-behavior/) | Video and motion | 2026-11-05 |
 
 ## More
 

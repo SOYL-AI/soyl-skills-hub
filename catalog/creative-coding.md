@@ -2,7 +2,7 @@
 
 three.js, WebGPU, shaders and 3D on the web.
 
-4 skills here and 11 linked to their source, from 4 projects. [All categories](../CATALOG.md)
+5 skills here and 12 linked to their source, from 6 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -28,6 +28,16 @@ Rebuild the object in a reference image as a code-only, procedural, quality-gate
 |---|---|
 | [img2threejs](../skills/creative-coding/img2threejs/img2threejs/) | Turn an object or character reference image into a quality-gated, animation-ready procedural Three.js model built in code. Use for image-to-3D reconstruction… |
 
+## pixelfx
+
+[patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) · MIT · ★ 6k · 1 here
+
+244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
+
+| Skill | What it does |
+|---|---|
+| [pixelfx](../skills/creative-coding/pixelfx/pixelfx/) | Make pixel art effects and sprite animations in code with the pixelfx library, which has 244 ready-made ones, acted out by a character who winds up, freezes on contact… |
+
 ## claude-pxl
 
 [augusto-scarvalho/claude-pxl](https://github.com/augusto-scarvalho/claude-pxl) · MIT · ★ 229 · 1 linked
@@ -35,6 +45,16 @@ Rebuild the object in a reference image as a code-only, procedural, quality-gate
 | Skill | What it does |
 |---|---|
 | [pxl-pixel-art ↗](https://github.com/augusto-scarvalho/claude-pxl) | Creates pixel art (game sprites, characters, animations, items, icons, tiles and tilesets, scenes, sprite sheets) with pxl, a compact JavaScript DSL that renders PNGs… *(Too big to copy here (64 MB): install it from the source.)* |
+
+## teardown
+
+[elvarofficial/teardown](https://github.com/elvarofficial/teardown) · MIT · ★ 2.6k · 1 linked
+
+A Claude Code skill that turns any machine into a 3D simulator you can take apart
+
+| Skill | What it does |
+|---|---|
+| [teardown ↗](https://github.com/elvarofficial/teardown) | Build an interactive 3D simulator of a real machine or mechanism (an engine, a landing gear, a walking linkage, a pump, a gearbox) as one offline HTML page people can… *(Too big to copy here (16 MB): install it from the source.)* |
 
 ## threejs-skills
 

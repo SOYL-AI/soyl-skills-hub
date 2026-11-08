@@ -2,7 +2,7 @@
 
 Planning, testing, debugging, code review, memory and shipping.
 
-532 skills here and 15 linked to their source, from 31 projects. [All categories](../CATALOG.md)
+533 skills here and 15 linked to their source, from 32 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -554,6 +554,16 @@ Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 mos
 | Skill | What it does |
 |---|---|
 | [vbs-scan-security](../skills/dev-workflow/vbsec/vbs-scan-security/) | Use when scanning code for security vulnerabilities. Use when user says "scan security", "kiểm tra bảo mật", "security audit", "review security", or invokes… |
+
+## visual-explainer
+
+[nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) · MIT · ★ 10.9k · 1 here
+
+Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps
+
+| Skill | What it does |
+|---|---|
+| [visual-explainer](../skills/dev-workflow/visual-explainer/visual-explainer/) | Generate self-contained HTML visual explanations for systems, code changes, plans, data, and technical concepts. Use for diagrams, architecture overviews, diff or plan… |
 
 ## GitNexus
 
