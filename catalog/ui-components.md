@@ -2,7 +2,7 @@
 
 Component libraries, icons and interface kits.
 
-30 skills here and 8 linked to their source, from 12 projects. [All categories](../CATALOG.md)
+31 skills here and 8 linked to their source, from 13 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -84,6 +84,16 @@ MCP server for 1M+ SVG icons
 | Skill | What it does |
 |---|---|
 | [aria-icons](../skills/ui-components/Aria-Icons/aria-icons/) | Use when working with icons in any project. Search 1.4M icons, add them as source files (no giant dependency), migrate existing icon libraries, and run as an MCP server… |
+
+## astryx
+
+[meta/astryx](https://github.com/meta/astryx) · MIT · ★ 25.9k · 1 here
+
+An open source design system that's fully customizable and agent ready
+
+| Skill | What it does |
+|---|---|
+| [astryx](../skills/ui-components/astryx/astryx/) | Astryx, a design system and UI library, is available on this computer through the astryx command; use it when building or changing UI, choosing components, layout… |
 
 ## hairline
 

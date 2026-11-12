@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-12",
  "hub": "SOYL-AI/soyl-skills-hub",
  "sources": {
   "ai-platforms/OpenHands": {
@@ -468,6 +468,19 @@
    "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
    "stars": 19789,
    "github_checked": "2026-10-30"
+  },
+  "creative-coding/mesh-avatar-studio": {
+   "category": "creative-coding",
+   "repo": "mesh-avatar-studio",
+   "url": "https://github.com/shinshin86/mesh-avatar-studio",
+   "branch": "main",
+   "commit": "3619620266740236327debfcf327f898a99dd7b3",
+   "license": "MIT",
+   "skills": 0,
+   "added": "2026-11-12",
+   "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+   "stars": 2319,
+   "github_checked": "2026-11-12"
   },
   "creative-coding/p5.brush": {
    "category": "creative-coding",
@@ -2570,6 +2583,19 @@
    "stars": 1241,
    "github_checked": "2026-10-30"
   },
+  "ui-components/astryx": {
+   "category": "ui-components",
+   "repo": "astryx",
+   "url": "https://github.com/meta/astryx",
+   "branch": "main",
+   "commit": "09dafe8504dd574efe214fc463e5fc9902708a73",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-12",
+   "description": "An open source design system that's fully customizable and agent ready",
+   "stars": 25896,
+   "github_checked": "2026-11-12"
+  },
   "ui-components/fancy": {
    "category": "ui-components",
    "repo": "fancy",
@@ -2842,6 +2868,19 @@
    "stars": 2704,
    "github_checked": "2026-10-30"
   },
+  "video-and-motion/anything2explainer": {
+   "category": "video-and-motion",
+   "repo": "anything2explainer",
+   "url": "https://github.com/Vincentwei1021/anything2explainer",
+   "branch": "main",
+   "commit": "0b85f6c7bfc4ef094ee1afb6c68c06fcf329cfab",
+   "license": "PolyForm-Noncommercial",
+   "skills": 1,
+   "added": "2026-11-12",
+   "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+   "stars": 3248,
+   "github_checked": "2026-11-12"
+  },
   "video-and-motion/artcraft": {
    "category": "video-and-motion",
    "repo": "artcraft",
@@ -2919,6 +2958,19 @@
    "description": "SoTA open-source TTS",
    "stars": 27410,
    "github_checked": "2026-10-30"
+  },
+  "video-and-motion/claude-remotion-skill": {
+   "category": "video-and-motion",
+   "repo": "claude-remotion-skill",
+   "url": "https://github.com/haidrrrry/claude-remotion-skill",
+   "branch": "main",
+   "commit": "1dcbe5e3fc6cf970bd10d3cc05f0a8a5d19d0383",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-12",
+   "description": "Open-source Claude agent skill that teaches Claude Code, Claude Desktop & Claude AI to create and edit professional motion graphics videos with Remotion. AI video editing, B-roll, captions, sound design — from one prompt.",
+   "stars": 962,
+   "github_checked": "2026-11-12"
   },
   "video-and-motion/claude-shorts": {
    "category": "video-and-motion",
@@ -3061,6 +3113,19 @@
    "description": "The open collection of GL Transitions",
    "stars": 2236,
    "github_checked": "2026-11-08"
+  },
+  "video-and-motion/hand-drawn-explainer-video-nikola": {
+   "category": "video-and-motion",
+   "repo": "hand-drawn-explainer-video-nikola",
+   "url": "https://github.com/hi-nikola/hand-drawn-explainer-video-nikola",
+   "branch": "main",
+   "commit": "3ee5d1c01fe8d34f5162c4aace418753f85bd0d9",
+   "license": "Apache-2.0",
+   "skills": 1,
+   "added": "2026-11-12",
+   "description": "中文手绘知识讲解视频 Codex Skill：逐笔故事、双语义岛、让怪诞小黑动起来与程序动画",
+   "stars": 469,
+   "github_checked": "2026-11-12"
   },
   "video-and-motion/hyperframes": {
    "category": "video-and-motion",
@@ -3218,6 +3283,19 @@
    "stars": 4681,
    "github_checked": "2026-11-05"
   },
+  "video-and-motion/paint-mv-skills": {
+   "category": "video-and-motion",
+   "repo": "paint-mv-skills",
+   "url": "https://github.com/lintsinghua/paint-mv-skills",
+   "branch": "main",
+   "commit": "ca8f5f75f186d590e687542b106aa73ceff9133c",
+   "license": "MIT",
+   "skills": 4,
+   "added": "2026-11-12",
+   "description": "Agent skills that turn a song and its lyrics into a hand-painted watercolour music video (p5.brush + headless Chrome + ffmpeg), following PDoomVideo's pipeline",
+   "stars": 59,
+   "github_checked": "2026-11-12"
+  },
   "video-and-motion/recordly": {
    "category": "video-and-motion",
    "repo": "recordly",
@@ -3295,6 +3373,19 @@
    "description": "Open-source video compiler that turns videos into structured knowledge for AI agents.",
    "stars": 16,
    "github_checked": "2026-10-30"
+  },
+  "video-and-motion/vox-explainer-skill": {
+   "category": "video-and-motion",
+   "repo": "vox-explainer-skill",
+   "url": "https://github.com/CK42BB/vox-explainer-skill",
+   "branch": "main",
+   "commit": "7003225dc3ed1dee9e2ef8b91b05b82c04691aa9",
+   "license": "MIT",
+   "skills": 1,
+   "added": "2026-11-12",
+   "description": "A Claude Code skill that turns one topic prompt into a finished Vox-style explainer video. Script, keyframes, animation, voiceover, music, and local assembly — end to end.",
+   "stars": 209,
+   "github_checked": "2026-11-12"
   },
   "video-and-motion/whisper": {
    "category": "video-and-motion",
@@ -36266,6 +36357,18 @@
    "bytes": 2431
   },
   {
+   "name": "astryx",
+   "description": "Astryx, a design system and UI library, is available on this computer through the astryx command; use it when building or changing UI, choosing components, layout, styling or theming, working with a design system, or in any project that depends on @astryxdesign packages or mentions Astryx.",
+   "source": "ui-components/astryx",
+   "upstream_path": "plugins/astryx/skills/astryx",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/ui-components/astryx/astryx",
+   "added": "2026-11-12",
+   "bytes": 1880
+  },
+  {
    "name": "hairline-create",
    "description": "Use when someone asks for a new Hairline figure, or runs /hairline-create with an idea. Draws one isometric line figure that answers the pointer, in the style and on the engine of @lucasmarkes/hairline, and hands it over as a single self-contained HTML file.",
    "source": "ui-components/hairline",
@@ -36614,6 +36717,17 @@
    "bytes": 5086
   },
   {
+   "name": "anything2explainer",
+   "description": "给一个主题，产出一条黑底 MG 风格（幕底可选星点或点阵波）、有配音字幕章节进度条的科普讲解视频（中文或英文；Remotion 代码动画；时长由用户定，常用 3–5 分钟）。内含可编译模板、图元库、配音/分镜/渲染工具、风格与动效规范、多 agent 分工协议与 QC 判据，以及一条完整样片（《RAG 与知识库》）作为质量标尺。Turn any topic into a narrated motion-graphics explainer video in Chinese or English, on a black canvas with a star-field or dot-field backdrop, TTS voiceover, subtitles and a chapter progress bar, every frame drawn in code with Remotion. Use when the user asks for an explainer, educational or science-communication video about a topic, or wants an article or document turned into a video.",
+   "source": "video-and-motion/anything2explainer",
+   "upstream_path": ".",
+   "status": "link",
+   "reason": "Non-commercial licence",
+   "license": "PolyForm-Noncommercial",
+   "added": "2026-11-12",
+   "bytes": 23651020
+  },
+  {
    "name": "auto-editor",
    "description": "Record a microphone or edit video/audio with the auto-editor CLI — cut out dead space (silence, motionlessness, black frames), set the pace, make manual cuts, and render the result. Use when someone wants to capture and trim a microphone, remove silence, shorten a recording, speed through quiet parts, or otherwise edit media with auto-editor.",
    "source": "video-and-motion/auto-editor",
@@ -36696,6 +36810,18 @@
    "hub_path": "skills/video-and-motion/bang-motion/bang-motion",
    "added": "2026-11-01",
    "bytes": 2346582
+  },
+  {
+   "name": "remotion-motion-graphics",
+   "description": "Create and edit professional motion graphics videos with Remotion (React-based video). Use this skill EVERY time the user wants to create a video, edit a video, animate something, build an intro/outro/logo animation, make a Reel/Short/promo/launch video, add text animations or captions to footage, composite images and B-roll into a video, or mentions Remotion, motion graphics, video rendering, or \"make this video look better/less generic\". Also trigger when editing an existing Remotion project or when the user complains their video looks basic, generic, or amateur — this skill contains the exact fixes. Always read this skill BEFORE writing any Remotion code.",
+   "source": "video-and-motion/claude-remotion-skill",
+   "upstream_path": "remotion-motion-graphics",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/claude-remotion-skill/remotion-motion-graphics",
+   "added": "2026-11-12",
+   "bytes": 23652
   },
   {
    "name": "shorts",
@@ -37034,6 +37160,17 @@
    "hub_path": "skills/video-and-motion/gl-transitions/transition-naming",
    "added": "2026-11-08",
    "bytes": 3479
+  },
+  {
+   "name": "hand-drawn-explainer-video-nikola",
+   "description": "制作、修改和验收中文手绘知识讲解视频，交付配音、字幕、时间轴、可编辑工程和真实 MP4。支持两条不可混淆的制作路线：同一画布持续落墨的逐笔故事动画，以及用 SVG/HTML/GSAP 编排流程卡片、关系图和知识图形的程序动画。逐笔路线可选择自然肤色 Q 版人物、小黑风格或其他手绘风格，并可采用单场景、多幕故事、左右双语义岛等画面结构。用户说“边讲边画”“一笔一笔画出来”“白板手绘”“先画左边再画右边”“知识讲解动画”或希望把文稿、SRT、人物故事做成手绘视频时使用。也支持只输出生图/图生视频提示词。不用于写实数字人或假装已经完成无法验证的成片。",
+   "source": "video-and-motion/hand-drawn-explainer-video-nikola",
+   "upstream_path": ".",
+   "status": "link",
+   "reason": "Too big to copy here (77 MB)",
+   "license": "Apache-2.0",
+   "added": "2026-11-12",
+   "bytes": 76922515
   },
   {
    "name": "canopy-part-title",
@@ -39177,6 +39314,54 @@
    "bytes": 1578448
   },
   {
+   "name": "paint-mv",
+   "description": "Turns a song (audio file + lyrics) into a hand-painted watercolour music video (MP4) in the style of PDoomVideo, following its pipeline end to end: measure the beat grid and time the lyrics, scaffold the p5.brush engine, design the story, characters and sets from the lyrics, paint one chapter per parallel subagent with contact-sheet checks, render every frame in headless Chrome and encode with the song via ffmpeg. The director skill that drives paint-mv-storyboard, paint-mv-animate and paint-mv-render. Use when the user wants to make an MV / music video / lyric video / 歌词视频 / 动画 MV from a song and its lyrics, or mentions PDoomVideo or p5.brush videos.",
+   "source": "video-and-motion/paint-mv-skills",
+   "upstream_path": "skills/paint-mv",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/paint-mv-skills/paint-mv",
+   "added": "2026-11-12",
+   "bytes": 95967
+  },
+  {
+   "name": "paint-mv-animate",
+   "description": "Paints one chapter (src/ch/cNN_name.js) of a paint-mv music video in the PDoomVideo style: watercolour-and-ink frames drawn with p5.brush, the song's own characters (designed from its lyrics) acting on the beat, camera moves and motivated transitions, each frame a pure function of song time. The PDoomVideo ANIMATION_GUIDE as a skill, with the engine API reference, a guide to designing characters in the house style, a techniques catalogue and the nine original chapters as examples. Use when painting, fixing or polishing an MV chapter, shot or character, when briefed as a chapter subagent by paint-mv, or when editing src/ch/*.js or src/characters.js in a project made with paint-mv.",
+   "source": "video-and-motion/paint-mv-skills",
+   "upstream_path": "skills/paint-mv-animate",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/paint-mv-skills/paint-mv-animate",
+   "added": "2026-11-12",
+   "bytes": 62588
+  },
+  {
+   "name": "paint-mv-render",
+   "description": "Checks and renders a paint-mv music video with its render.mjs (Puppeteer drives studio.html in headless Chrome, ffmpeg encodes): contact sheets and stills for visual checks, short clips with audio, the full parallel and resumable frame render, re-rendering a fixed time range, encoding frames plus the song into the final MP4, verifying the result and troubleshooting Chrome/WebGL/ffmpeg problems. Use when previewing, rendering, re-rendering or exporting an MV made with paint-mv, or when render.mjs fails.",
+   "source": "video-and-motion/paint-mv-skills",
+   "upstream_path": "skills/paint-mv-render",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/paint-mv-skills/paint-mv-render",
+   "added": "2026-11-12",
+   "bytes": 6696
+  },
+  {
+   "name": "paint-mv-storyboard",
+   "description": "Writes STORYBOARD.md for a paint-mv music video the way the PDoomVideo storyboard was written, with everything specific taken from the song's own lyrics: a concept with a twist that bookends the video, a cast designed from who and what the lyrics sing about, one set per chapter drawn from the lyrics' imagery, a shot per lyric line and motivated transitions; then applies the plan to the project (song.js wipes and meter, chapter stubs, studio.html). Use when planning, writing or revising the concept, characters, chapters, shots or transitions of an MV made with paint-mv, or when asked for an MV storyboard / 分镜 / 镜头表 / 角色设计.",
+   "source": "video-and-motion/paint-mv-skills",
+   "upstream_path": "skills/paint-mv-storyboard",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/paint-mv-skills/paint-mv-storyboard",
+   "added": "2026-11-12",
+   "bytes": 12056
+  },
+  {
    "name": "anime-cel",
    "description": "Make Japanese TV-anime style videos (MP4) with code — cel-shaded characters with tapered line art, big detailed eyes, hair clumps with a specular band, comedic anime reactions (sweat drop, anger vein, sparkle eyes, ≥< eyes, dot eyes, tears), painted skies with cumulus clouds, school/street/classroom/rooftop sets with time-of-day palettes, speed/focus lines, impact frames, dramatic zooms, smears, sakura petals and anime subtitles (CJK). Canvas 2D rendered frame by frame in headless Chrome, encoded with ffmpeg. Use when a reference video or brief calls for anime / 動畫 / 日系動畫 / アニメ / cel-shaded / slice-of-life / school romance / shōnen-style reactions, or when the video-clone router picks the anime-cel style. 2D only; characters are original (Hina, Ren) or new ones built on the same rig.",
    "source": "video-and-motion/reelmimic",
@@ -39689,6 +39874,18 @@
    "hub_path": "skills/video-and-motion/video-use/video-use",
    "added": "2026-10-29",
    "bytes": 779861
+  },
+  {
+   "name": "vox-explainer",
+   "description": "End-to-end pipeline for producing Vox-style explainer videos from a single topic prompt. One topic in, finished film out — script, keyframes (Seedream 5.0 Pro), animation (Gemini Omni Flash), voiceover (xAI TTS), music (MiniMax Music 2.6), all assembled locally with ffmpeg via the Atlas Cloud API. Use this skill whenever the user asks for an explainer video, a Vox-style video, a documentary short, an educational video essay, a \"one prompt to video\" pipeline, or wants to turn a topic/article/report into a narrated video with subtitles and music. Also trigger when the user mentions Atlas Cloud video pipelines, keyframe-to-animation workflows, or automated video essays — even if they don't say \"Vox.",
+   "source": "video-and-motion/vox-explainer-skill",
+   "upstream_path": ".",
+   "status": "mirrored",
+   "reason": "",
+   "license": "MIT",
+   "hub_path": "skills/video-and-motion/vox-explainer-skill/vox-explainer",
+   "added": "2026-11-12",
+   "bytes": 31245
   },
   {
    "name": "gsap-core",

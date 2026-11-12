@@ -1,14 +1,14 @@
 # Catalog
 
-2147 skills you can install from this repo, and 989 more listed with a link to their source, from 149 projects. Updated 2026-11-08.
+2154 skills you can install from this repo, and 991 more listed with a link to their source, from 155 projects. Updated 2026-11-12.
 
 | Category | Here | Linked | What's in it |
 |---|---:|---:|---|
-| [Video and motion](catalog/video-and-motion.md) | 227 | 32 | Reels, explainers, motion graphics, captions and editing video with code. |
+| [Video and motion](catalog/video-and-motion.md) | 233 | 34 | Reels, explainers, motion graphics, captions and editing video with code. |
 | [Design](catalog/design-skills.md) | 51 | 6 | Taste, layout, type, colour, design systems, critique and studying great sites. |
 | [Web animation](catalog/web-animation.md) | 34 | 0 | GSAP, scroll-driven motion and animation for websites. |
 | [Creative coding](catalog/creative-coding.md) | 5 | 12 | three.js, WebGPU, shaders and 3D on the web. |
-| [UI components](catalog/ui-components.md) | 30 | 8 | Component libraries, icons and interface kits. |
+| [UI components](catalog/ui-components.md) | 31 | 8 | Component libraries, icons and interface kits. |
 | [Marketing and growth](catalog/marketing-and-growth.md) | 226 | 6 | Copy, SEO, ads, launches, email, social media and sales. |
 | [Research and scraping](catalog/research-and-scraping.md) | 123 | 7 | Web and paper research, notebooks, scraping and second brains. |
 | [Developer workflow](catalog/dev-workflow.md) | 533 | 15 | Planning, testing, debugging, code review, memory and shipping. |
@@ -28,6 +28,15 @@
 
 | Skill | Category | Added |
 |---|---|---|
+| [vox-explainer](skills/video-and-motion/vox-explainer-skill/vox-explainer/) | Video and motion | 2026-11-12 |
+| [paint-mv-storyboard](skills/video-and-motion/paint-mv-skills/paint-mv-storyboard/) | Video and motion | 2026-11-12 |
+| [paint-mv-render](skills/video-and-motion/paint-mv-skills/paint-mv-render/) | Video and motion | 2026-11-12 |
+| [paint-mv-animate](skills/video-and-motion/paint-mv-skills/paint-mv-animate/) | Video and motion | 2026-11-12 |
+| [paint-mv](skills/video-and-motion/paint-mv-skills/paint-mv/) | Video and motion | 2026-11-12 |
+| [hand-drawn-explainer-video-nikola ↗](https://github.com/hi-nikola/hand-drawn-explainer-video-nikola) | Video and motion | 2026-11-12 |
+| [remotion-motion-graphics](skills/video-and-motion/claude-remotion-skill/remotion-motion-graphics/) | Video and motion | 2026-11-12 |
+| [anything2explainer ↗](https://github.com/Vincentwei1021/anything2explainer) | Video and motion | 2026-11-12 |
+| [astryx](skills/ui-components/astryx/astryx/) | UI components | 2026-11-12 |
 | [transition-naming](skills/video-and-motion/gl-transitions/transition-naming/) | Video and motion | 2026-11-08 |
 | [promo-video](skills/video-and-motion/gl-transitions/promo-video/) | Video and motion | 2026-11-08 |
 | [gl-transitions](skills/video-and-motion/gl-transitions/gl-transitions/) | Video and motion | 2026-11-08 |
@@ -59,17 +68,8 @@
 | [pixijs-assets](skills/web-animation/pixijs/pixijs-assets/) | Web animation | 2026-11-05 |
 | [pixijs-application](skills/web-animation/pixijs/pixijs-application/) | Web animation | 2026-11-05 |
 | [pixijs-accessibility](skills/web-animation/pixijs/pixijs-accessibility/) | Web animation | 2026-11-05 |
-| [pixijs](skills/web-animation/pixijs/pixijs/) | Web animation | 2026-11-05 |
-| [whiteboard](skills/video-and-motion/openfilm/whiteboard/) | Video and motion | 2026-11-05 |
-| [vintage-film](skills/video-and-motion/openfilm/vintage-film/) | Video and motion | 2026-11-05 |
-| [screen-demo](skills/video-and-motion/openfilm/screen-demo/) | Video and motion | 2026-11-05 |
-| [replicate](skills/video-and-motion/openfilm/replicate/) | Video and motion | 2026-11-05 |
-| [presenter-pip](skills/video-and-motion/openfilm/presenter-pip/) | Video and motion | 2026-11-05 |
-| [openfilm](skills/video-and-motion/openfilm/openfilm/) | Video and motion | 2026-11-05 |
-| [motion-graphics](skills/video-and-motion/openfilm/motion-graphics/) | Video and motion | 2026-11-05 |
-| [lyric-video](skills/video-and-motion/openfilm/lyric-video/) | Video and motion | 2026-11-05 |
 
 ## More
 
-- [Libraries and resources](catalog/resources.md): 117 libraries, lists and tools that aren't skills.
+- [Libraries and resources](catalog/resources.md): 118 libraries, lists and tools that aren't skills.
 - [catalog/skills.json](catalog/skills.json): everything above as data.

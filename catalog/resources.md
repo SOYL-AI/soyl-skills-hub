@@ -51,6 +51,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 |---|---|---|
 | [canvas-ui](https://github.com/DavidHDev/canvas-ui) | A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla. | Commons-Clause |
 | [cobe](https://github.com/shuding/cobe) | 5KB WebGL globe lib. | MIT |
+| [mesh-avatar-studio](https://github.com/shinshin86/mesh-avatar-studio) | Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor | MIT |
 | [p5.brush](https://github.com/acamposuribe/p5.brush) | Unlock custom brushes, natural fill effects and intuitive hatching in p5.js | MIT |
 | [sketchbook](https://github.com/MengTo/sketchbook) | A page-flipping sketchbook of Singapore. One static HTML file: drag to turn the page, drag the magnifier across it. | none |
 | [three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. | MIT |

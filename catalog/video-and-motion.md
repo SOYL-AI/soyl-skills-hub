@@ -2,7 +2,7 @@
 
 Reels, explainers, motion graphics, captions and editing video with code.
 
-227 skills here and 32 linked to their source, from 28 projects. [All categories](../CATALOG.md)
+233 skills here and 34 linked to their source, from 33 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -232,6 +232,19 @@ Effort free video editing!
 | [auto-editor-export](../skills/video-and-motion/auto-editor/auto-editor-export/) | Export auto-editor's edit or microphone recording to a video editor (Premiere, DaVinci Resolve, Final Cut Pro, ShotCut, Kdenlive), to individual clips, or to auto-editor… |
 | [auto-editor-transcribe](../skills/video-and-motion/auto-editor/auto-editor-transcribe/) | Transcribe a media file or live microphone to text or subtitles with auto-editor's whisper subcommand, then edit by spoken content — cut to keep (or drop) sections whose… |
 
+## paint-mv-skills
+
+[lintsinghua/paint-mv-skills](https://github.com/lintsinghua/paint-mv-skills) · MIT · ★ 59 · 4 here
+
+Agent skills that turn a song and its lyrics into a hand-painted watercolour music video (p5.brush + headless Chrome + ffmpeg), following PDoomVideo's pipeline
+
+| Skill | What it does |
+|---|---|
+| [paint-mv](../skills/video-and-motion/paint-mv-skills/paint-mv/) | Turns a song (audio file + lyrics) into a hand-painted watercolour music video (MP4) in the style of PDoomVideo, following its pipeline end to end: measure the beat grid… |
+| [paint-mv-animate](../skills/video-and-motion/paint-mv-skills/paint-mv-animate/) | Paints one chapter (src/ch/cNN_name.js) of a paint-mv music video in the PDoomVideo style: watercolour-and-ink frames drawn with p5.brush, the song's own characters… |
+| [paint-mv-render](../skills/video-and-motion/paint-mv-skills/paint-mv-render/) | Checks and renders a paint-mv music video with its render.mjs (Puppeteer drives studio.html in headless Chrome, ffmpeg encodes): contact sheets and stills for visual… |
+| [paint-mv-storyboard](../skills/video-and-motion/paint-mv-skills/paint-mv-storyboard/) | Writes STORYBOARD.md for a paint-mv music video the way the PDoomVideo storyboard was written, with everything specific taken from the song's own lyrics: a concept with… |
+
 ## gl-transitions
 
 [gl-transitions/gl-transitions](https://github.com/gl-transitions/gl-transitions) · MIT · ★ 2.2k · 3 here
@@ -275,6 +288,16 @@ Agent skill for browser motion graphics — openers, promos, bumpers, kinetic ty
 | Skill | What it does |
 |---|---|
 | [bang-motion](../skills/video-and-motion/bang-motion/bang-motion/) | Membangun motion graphic sinematik di browser (promo video, opener, intro, bumper, kinetic typography, explainer/video penjelasan bergambar 16:9 atau 9:16) memakai HTML… |
+
+## claude-remotion-skill
+
+[haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill) · MIT · ★ 962 · 1 here
+
+Open-source Claude agent skill that teaches Claude Code, Claude Desktop & Claude AI to create and edit professional motion graphics videos with Remotion. AI video editing, B-roll, captions, sound design — from one prompt.
+
+| Skill | What it does |
+|---|---|
+| [remotion-motion-graphics](../skills/video-and-motion/claude-remotion-skill/remotion-motion-graphics/) | Create and edit professional motion graphics videos with Remotion (React-based video). Use this skill EVERY time the user wants to create a video, edit a video, animate… |
 
 ## claude-shorts
 
@@ -336,6 +359,26 @@ Open-source download manager for courses (Udemy/Hotmart), YouTube, music & 1,800
 |---|---|
 | [ui-lint](../skills/video-and-motion/omniget/ui-lint/) | Run targeted rendered UI verification with lintapple (`pnpm lint:ui &lt;target>`). Use whenever modifying Svelte routes (`src/routes/`), UI components… |
 
+## vox-explainer-skill
+
+[CK42BB/vox-explainer-skill](https://github.com/CK42BB/vox-explainer-skill) · MIT · ★ 209 · 1 here
+
+A Claude Code skill that turns one topic prompt into a finished Vox-style explainer video. Script, keyframes, animation, voiceover, music, and local assembly — end to end.
+
+| Skill | What it does |
+|---|---|
+| [vox-explainer](../skills/video-and-motion/vox-explainer-skill/vox-explainer/) | End-to-end pipeline for producing Vox-style explainer videos from a single topic prompt. One topic in, finished film out — script, keyframes (Seedream 5.0 Pro)… |
+
+## anything2explainer
+
+[Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) · PolyForm-Noncommercial · ★ 3.2k · 1 linked
+
+Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
+
+| Skill | What it does |
+|---|---|
+| [anything2explainer ↗](https://github.com/Vincentwei1021/anything2explainer) | 给一个主题，产出一条黑底 MG 风格（幕底可选星点或点阵波）、有配音字幕章节进度条的科普讲解视频（中文或英文；Remotion 代码动画；时长由用户定，常用 3–5 分钟）。内含可编译模板、图元库、配音/分镜/渲染工具、风格与动效规范、多 agent 分工协议与 QC 判据，以及一条完整样片（《RAG 与知识库》）作为质量标尺。Turn… *(Non-commercial licence: install it from the source.)* |
+
 ## code-animation-prompts
 
 [XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts) · Unknown · ★ 529 · 1 linked
@@ -380,6 +423,16 @@ Raw talking-head take in, finished reel out. Open-source AI video editor for Cla
 | Skill | What it does |
 |---|---|
 | [ghost-editor ↗](https://github.com/kurbaitaev/ghost-editor) | AI video editor for talking-head reels. Turns a raw phone recording of someone talking to camera (retakes, pauses, false starts) into a finished vertical 1080x1920 reel… *(Too big to copy here (34 MB): install it from the source.)* |
+
+## hand-drawn-explainer-video-nikola
+
+[hi-nikola/hand-drawn-explainer-video-nikola](https://github.com/hi-nikola/hand-drawn-explainer-video-nikola) · Apache-2.0 · ★ 469 · 1 linked
+
+中文手绘知识讲解视频 Codex Skill：逐笔故事、双语义岛、让怪诞小黑动起来与程序动画
+
+| Skill | What it does |
+|---|---|
+| [hand-drawn-explainer-video-nikola ↗](https://github.com/hi-nikola/hand-drawn-explainer-video-nikola) | 制作、修改和验收中文手绘知识讲解视频，交付配音、字幕、时间轴、可编辑工程和真实 MP4。支持两条不可混淆的制作路线：同一画布持续落墨的逐笔故事动画，以及用 SVG/HTML/GSAP 编排流程卡片、关系图和知识图形的程序动画。逐笔路线可选择自然肤色 Q… *(Too big to copy here (77 MB): install it from the source.)* |
 
 ## hypit
 
