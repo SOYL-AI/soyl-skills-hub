@@ -43,6 +43,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [lenis](https://github.com/darkroomengineering/lenis) | Smooth scroll as it should be | MIT |
 | [lottie-web](https://github.com/airbnb/lottie-web) | Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/ | MIT |
 | [string-tune](https://www.npmjs.com/package/@fiddle-digital/string-tune) | — | none |
+| [theatre](https://github.com/theatre-js/theatre) | Motion design editor for the web | Apache-2.0 |
 | [wawa-vfx](https://github.com/wass08/wawa-vfx) | A simple and versatile VFX engine for Threejs & React Three Fiber | MIT |
 
 ## Creative coding
@@ -51,6 +52,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 |---|---|---|
 | [canvas-ui](https://github.com/DavidHDev/canvas-ui) | A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla. | Commons-Clause |
 | [cobe](https://github.com/shuding/cobe) | 5KB WebGL globe lib. | MIT |
+| [crimson-loong](https://github.com/ChetasLua/crimson-loong) | 赤龍 Crimson Loong: a 90 s dragon film in one HTML file. Pure three.js, every mesh, texture and note is code, zero assets. | none |
 | [mesh-avatar-studio](https://github.com/shinshin86/mesh-avatar-studio) | Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor | MIT |
 | [p5.brush](https://github.com/acamposuribe/p5.brush) | Unlock custom brushes, natural fill effects and intuitive hatching in p5.js | MIT |
 | [sketchbook](https://github.com/MengTo/sketchbook) | A page-flipping sketchbook of Singapore. One static HTML file: drag to turn the page, drag the magnifier across it. | none |
@@ -63,6 +65,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 |---|---|---|
 | [fancy](https://github.com/danielpetho/fancy) | — | MIT |
 | [Lightswind-UI-Library](https://github.com/codewithMUHILAN/Lightswind-UI-Library) | The AI-native CLI-first React component library. 160+ animated, accessible, production-ready components with MCP Server support for Cursor, Claude & GitHub Copilot. Copy-paste architecture — you own… | MIT |
+| [looseleaf](https://github.com/kevintngo/looseleaf) | shadcn/ui, drawn by hand: 123 accessible React components that look drawn on paper, with a shadcn registry. | MIT |
 | [react-bits](https://github.com/DavidHDev/react-bits) | The largest open-source library of animated, interactive, and customizable React & Next.js components for building standout web products and experiences. Built for humans and AI agents. | Commons-Clause |
 | [refine](https://github.com/refinedev/refine) | A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility. | MIT |
 | [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs) | Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light | MIT |
@@ -83,6 +86,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [openreplay](https://github.com/openreplay/openreplay) | Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product. | AGPL-3.0 |
 | [PlacesToPostYourStartup](https://github.com/mmccaff/PlacesToPostYourStartup) | Compiled list of links from "Ask HN: Where can I post my startup to get beta users?" | CC0-1.0 |
 | [plausible-analytics](https://github.com/plausible/analytics) | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. | AGPL-3.0 |
+| [RedInk](https://github.com/HisMax/RedInk) | Red Ink - A one-stop Xiaohongshu image-and-text generator based on the 🍌Nano Banana Pro🍌, "One Sentence, One Image: Generate Xiaohongshu Text and Images." | Non-commercial |
 | [seonaut](https://github.com/StJudeWasHere/seonaut) | Open source SEO audit tool. | MIT |
 | [serpbear](https://github.com/towfiqi/serpbear) | Search Engine Position Rank Tracking App | MIT |
 | [TinyTroupe](https://github.com/microsoft/TinyTroupe) | LLM-powered multiagent persona simulation for imagination enhancement and business insights. | MIT |
@@ -92,12 +96,15 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 
 | Project | What it is | Licence |
 |---|---|---|
+| [autoscraper](https://github.com/alirezamika/autoscraper) | A Smart, Automatic, Fast and Lightweight Web Scraper for Python | MIT |
 | [BambooAI](https://github.com/pgalko/BambooAI) | AI data analyst for transparent, reproducible analysis. Works step by step in Python, verifies the evidence behind its reports, and supports a wide selection of models, including local open-weight… | MIT |
 | [changedetection.io](https://github.com/dgtlmoon/changedetection.io) | Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement… | Apache-2.0 |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord… | Apache-2.0 |
 | [honest-thumbnails](https://github.com/851-labs/honest-thumbnails) | Chrome extension that replaces YouTube's clickbait thumbnails with a real frame from the middle of the video. | MIT |
 | [invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube | AGPL-3.0 |
 | [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | Fastest and cheapest web agent | MIT |
+| [markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | MIT |
+| [scrapy](https://github.com/scrapy/scrapy) | Scrapy, a fast high-level web crawling & scraping framework for Python. | BSD-3-Clause |
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | MIT |
 
 ## Developer workflow
@@ -120,6 +127,7 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of performing complex penetration testing tasks | MIT |
 | [playwright-mcp](https://github.com/microsoft/playwright-mcp) | Playwright MCP server | Apache-2.0 |
 | [Repolyze](https://github.com/MxCorpIn/Repolyze) | Analyze your GitHub repository with actionable insights, visual diagrams, and exportable reports. | MIT |
+| [vulture](https://github.com/jendrikseipp/vulture) | Find dead Python code | MIT |
 | [wordcraft](https://github.com/storytold/wordcraft) | An open-source, clean-room reimplementation of Microsoft Word in pure Rust | Apache-2.0+MIT |
 
 ## AI platforms
@@ -132,9 +140,11 @@ Projects we keep next to the skills: libraries, lists and tools with no SKILL.md
 | [graphiti](https://github.com/getzep/graphiti) | Build Real-Time Knowledge Graphs for AI Agents | Apache-2.0 |
 | [laya](https://github.com/NandhaKishorM/laya) | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per… | Apache-2.0 |
 | [letta](https://github.com/letta-ai/letta) | Platform for stateful agents: AI with advanced memory that can learn and self-improve over time. | Apache-2.0 |
+| [MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物 | AGPL-3.0 |
 | [ollama](https://github.com/ollama/ollama) | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. | MIT |
 | [open-glean](https://github.com/hydra-db/open-glean) | An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done. | Apache-2.0 |
 | [openjev](https://github.com/razorback16/openjev) | Open, Jev-compatible System One decision server on DiffusionGemma | Apache-2.0 |
+| [tribev2](https://github.com/facebookresearch/tribev2) | This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction | Non-commercial |
 | [Xolotl](https://github.com/Indras-Mirror/Xolotl) | Xolotl (formerly Strata-DSV4.1): run DeepSeek-V4.1-Flash, all 552B, as a local coding agent on one gaming PC (RTX 4090 + 90 GB RAM) at up to ~27 tok/s, 512K context, October 1017 builds included… | MIT |
 
 ## Learning

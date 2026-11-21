@@ -2,9 +2,73 @@
 
 Copy, SEO, ads, launches, email, social media and sales.
 
-226 skills here and 6 linked to their source, from 19 projects. [All categories](../CATALOG.md)
+282 skills here and 6 linked to their source, from 21 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
+
+## ootto-claude-content-skills
+
+[Ootto-AI/claude-content-skills](https://github.com/Ootto-AI/claude-content-skills) · MIT · ★ 537 · 55 here
+
+Free, copy-paste Claude skills that run your content growth factory — turn ideas + your NotebookLM memory into scroll-stopping Instagram reels. By Ootto.
+
+| Skill | What it does |
+|---|---|
+| [ab-hook-tester](../skills/marketing-and-growth/ootto-claude-content-skills/ab-hook-tester/) | Generates two genuinely distinct hook variants for the same reel so you can post-test which opening actually wins. Use when the user says "give me two hooks to test"… |
+| [agent-reach](../skills/marketing-and-growth/ootto-claude-content-skills/agent-reach/) | MUST USE when user wants to 调研/research/搜索/search/查/找/look up anything on the internet — e.g. 全网调研 X / 帮我调研一下 X / 查一下 X / 搜搜 X / 看看大家怎么评价 X / X 上有什么讨论 / research this… |
+| [ai-brain](../skills/marketing-and-growth/ootto-claude-content-skills/ai-brain/) | Give Claude a permanent, searchable long-term memory using an Obsidian vault as the store. At the end of a session, summarize what mattered and save it as a Markdown… |
+| [analytics-readout](../skills/marketing-and-growth/ootto-claude-content-skills/analytics-readout/) | Reads your reel insights and explains in plain English what to make more of and what to stop — no jargon. Use when the user says "explain my analytics", "what do my… |
+| [audience-personas](../skills/marketing-and-growth/ootto-claude-content-skills/audience-personas/) | Build evidence-led social audience personas from customer interviews, comments, reviews, or CRM notes. |
+| [b-roll-shot-list](../skills/marketing-and-growth/ootto-claude-content-skills/b-roll-shot-list/) | Turns a script into a shoot-ready shot list — every clip, angle and visual you need to film, in order. Use when the user says "what do I need to film", "shot list for… |
+| [best-time-scheduler](../skills/marketing-and-growth/ootto-claude-content-skills/best-time-scheduler/) | Recommends the posting times and weekly cadence that fit your audience's actual activity windows. Use when the user says "when should I post", "best time to post"… |
+| [bio-profile-optimizer](../skills/marketing-and-growth/ootto-claude-content-skills/bio-profile-optimizer/) | Rewrites your bio, name field and pinned-reel order to convert profile visits into follows and clicks. Use when the user says "rewrite my bio", "optimize my profile"… |
+| [campaign-brief](../skills/marketing-and-growth/ootto-claude-content-skills/campaign-brief/) | Use when a social campaign needs a decision-ready brief before anyone writes posts, books creators, or spends budget. Trigger phrases include "brief this launch", "turn… |
+| [caption-and-hashtags](../skills/marketing-and-growth/ootto-claude-content-skills/caption-and-hashtags/) | Write the caption, hashtag set, and first comment for a reel or post. Use when the user says "caption", "hashtags", "write the description", "what do I write under… |
+| [carousel-builder](../skills/marketing-and-growth/ootto-claude-content-skills/carousel-builder/) | Turns one idea into a swipeable carousel — slide-by-slide copy, a slide 1 that stops the scroll, and a last slide worth saving. Use when the user says "make this a… |
+| [collab-outreach](../skills/marketing-and-growth/ootto-claude-content-skills/collab-outreach/) | Drafts personalized pitches to creators and brands for collab reels, shoutouts and partnerships. Use when the user says "pitch a collab", "outreach to creators", "write… |
+| [comment-mining](../skills/marketing-and-growth/ootto-claude-content-skills/comment-mining/) | Reads your comments and DMs to surface the questions, objections and exact phrases your audience uses — and turns them into content ideas. Use when the user says "what… |
+| [comment-responder](../skills/marketing-and-growth/ootto-claude-content-skills/comment-responder/) | Turn every comment into a lead on autopilot. Claude watches your new comments, posts a friendly public reply (never a link), and DMs the commenter your lead magnet /… |
+| [community-engagement-plan](../skills/marketing-and-growth/ootto-claude-content-skills/community-engagement-plan/) | Use when a team needs a deliberate, human-led plan for participating in comments, communities, or audience conversations around an approved topic. Trigger phrases… |
+| [competitor-positioning](../skills/marketing-and-growth/ootto-claude-content-skills/competitor-positioning/) | Use when you need to compare supplied competitor messaging with your approved product facts and find a credible point of difference. Trigger phrases include "how are… |
+| [competitor-teardown](../skills/marketing-and-growth/ootto-claude-content-skills/competitor-teardown/) | Reverse-engineers a rival account's best posts into the patterns, hooks, and posting cadence actually driving their growth. Use when the user says "break down this… |
+| [content-audit](../skills/marketing-and-growth/ootto-claude-content-skills/content-audit/) | Reviews your last 30 posts to find what is worth doubling down on, what is dead weight, and the gaps to fill. Use when the user says "audit my content", "what is working… |
+| [content-calendar](../skills/marketing-and-growth/ootto-claude-content-skills/content-calendar/) | Turn a batch of ideas (or your content pillars) into a 2-week reel posting calendar with hooks, formats, and a daily plan. Use when the user says "content calendar"… |
+| [content-factory](../skills/marketing-and-growth/ootto-claude-content-skills/content-factory/) | The whole setup in one command — run the entire reel factory end to end. Claude takes a proven viral format, studies it frame by frame, writes an original hook + script… |
+| [content-pillar-builder](../skills/marketing-and-growth/ootto-claude-content-skills/content-pillar-builder/) | Defines the 3-5 themes your account posts against, so every reel ladders up to a clear position. Use when the user says "what are my content pillars", "define my… |
+| [content-repurposer](../skills/marketing-and-growth/ootto-claude-content-skills/content-repurposer/) | Turn one long-form source (blog post, podcast, YouTube video, webinar, transcript) into a batch of short-form reel ideas and scripts. Use when the user says "repurpose"… |
+| [content-research](../skills/marketing-and-growth/ootto-claude-content-skills/content-research/) | Turn Claude into a content research machine for any niche. Point it at any creator or account and it pulls their posts, finds the exact ones that blew up (the outliers)… |
+| [cover-thumbnail-brief](../skills/marketing-and-growth/ootto-claude-content-skills/cover-thumbnail-brief/) | Writes the cover-frame text and visual brief that makes your reel stop the scroll on the grid and in Explore. Use when the user says "write my cover text", "thumbnail… |
+| [creator-outreach](../skills/marketing-and-growth/ootto-claude-content-skills/creator-outreach/) | Use when a specific creator has been selected and you need a concise, personal, permission-respecting first contact about a relevant collaboration. Trigger phrases… |
+| [cross-platform-distribution](../skills/marketing-and-growth/ootto-claude-content-skills/cross-platform-distribution/) | Use when an approved campaign, launch, research finding, or asset needs a deliberate plan across several social channels. Trigger phrases include "adapt this for… |
+| [cross-platform-reformatter](../skills/marketing-and-growth/ootto-claude-content-skills/cross-platform-reformatter/) | Reshapes one Instagram reel into a TikTok and a YouTube Short — adjusting hook, length and captions per platform. Use when the user says "repost this to TikTok", "make… |
+| [cta-writer](../skills/marketing-and-growth/ootto-claude-content-skills/cta-writer/) | Writes the end-of-reel call to action that drives the exact next step — follow, DM a keyword, save, or click. Use when the user says "write my CTA", "how should I end… |
+| [dm-script-writer](../skills/marketing-and-growth/ootto-claude-content-skills/dm-script-writer/) | Writes the DM flow that turns an inbound comment or lead-magnet request into a booked call or a sale. Use when the user says "write my DM script", "what do I send after… |
+| [going-viral](../skills/marketing-and-growth/ootto-claude-content-skills/going-viral/) | The strategy layer for making short-form video actually go viral — pick the goal, manufacture the emotion that drives it, then build the hook + funnel around it. Use… |
+| [hashtag-keyword-research](../skills/marketing-and-growth/ootto-claude-content-skills/hashtag-keyword-research/) | Builds searchable, niche-fit hashtag and keyword sets so your reels surface in Explore and in search. Use when the user says "hashtags for this", "keyword research"… |
+| [hook-mining](../skills/marketing-and-growth/ootto-claude-content-skills/hook-mining/) | Mine a CSV of REAL top-performing hooks and generate alternatives that keep what made them work: hold the storytelling psychology and structure fixed, hot-swap only the… |
+| [humanizer](../skills/marketing-and-growth/ootto-claude-content-skills/humanizer/) | Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line… |
+| [influencer-partnerships](../skills/marketing-and-growth/ootto-claude-content-skills/influencer-partnerships/) | Use when you need to decide whether a creator partnership is appropriate and prepare a truthful, mutually useful collaboration brief. Trigger phrases include "should we… |
+| [launch-retrospective](../skills/marketing-and-growth/ootto-claude-content-skills/launch-retrospective/) | Use after a social launch, campaign, creator collaboration, or distribution test has enough evidence to decide what should be repeated, changed, or stopped. Trigger… |
+| [linkedin-thought-leadership](../skills/marketing-and-growth/ootto-claude-content-skills/linkedin-thought-leadership/) | Use when a founder, operator, or subject-matter expert needs a credible LinkedIn point of view based on work they can genuinely explain. Trigger phrases include "turn… |
+| [on-screen-text-writer](../skills/marketing-and-growth/ootto-claude-content-skills/on-screen-text-writer/) | Writes the tight caption-style overlays that keep silent viewers watching to the end. Use when the user says "write the on-screen text", "captions for this reel", "text… |
+| [paid-social-brief](../skills/marketing-and-growth/ootto-claude-content-skills/paid-social-brief/) | Use when an approved social campaign needs a media-ready brief for paid distribution, creative testing, and measurement. Trigger phrases include "brief paid social"… |
+| [positioning-audit](../skills/marketing-and-growth/ootto-claude-content-skills/positioning-audit/) | Audit a brand's social positioning from its profile, offer, customer proof, and competitor material. Use when the user says "audit our positioning", "review our… |
+| [profile-conversion-audit](../skills/marketing-and-growth/ootto-claude-content-skills/profile-conversion-audit/) | Use when an owned social profile needs an evidence-based audit of whether the right visitor can understand the account, trust it, and take the next approved step… |
+| [reel-analyzer](../skills/marketing-and-growth/ootto-claude-content-skills/reel-analyzer/) | Feed Claude any viral reel (a link or a file) and it studies the whole thing — frame by frame plus the transcript — then breaks down exactly why it works: the hook, the… |
+| [reel-builder](../skills/marketing-and-growth/ootto-claude-content-skills/reel-builder/) | Turn a teardown (or a rough idea) into a finished, ready-to-shoot reel. Claude writes the beat-by-beat script in your voice and lays out the on-screen text, the scene… |
+| [reel-scripter](../skills/marketing-and-growth/ootto-claude-content-skills/reel-scripter/) | Turn an idea or hook into a full 30-45 second reel script — hook, value beats, payoff, and CTA, with on-screen text. Use when the user says "reel script", "video… |
+| [series-planner](../skills/marketing-and-growth/ootto-claude-content-skills/series-planner/) | Designs a recurring, named reel series — a repeatable format viewers come back for and follow so they do not miss. Use when the user says "plan a series", "recurring… |
+| [social-analytics-report](../skills/marketing-and-growth/ootto-claude-content-skills/social-analytics-report/) | Use when you need to turn supplied social performance data into a decision about what to keep, test, change, or stop. Trigger phrases include "report on this campaign"… |
+| [social-listening](../skills/marketing-and-growth/ootto-claude-content-skills/social-listening/) | Use when you need to turn a supplied set of comments, DMs, reviews, community posts, or call notes into an evidence-backed picture of what people ask, resist, and… |
+| [social-proof-mining](../skills/marketing-and-growth/ootto-claude-content-skills/social-proof-mining/) | Use when you need to locate and prepare already-approved customer evidence for a social campaign, profile, post, or sales-adjacent explanation. Trigger phrases include… |
+| [story-sequencer](../skills/marketing-and-growth/ootto-claude-content-skills/story-sequencer/) | Plans a multi-frame Instagram Story arc with polls, questions and a clear tap-through to your reel or link. Use when the user says "plan my stories", "story sequence for… |
+| [trend-spotter](../skills/marketing-and-growth/ootto-claude-content-skills/trend-spotter/) | Scans what is breaking in your niche right now — formats, sounds, angles — and tells you which trends actually fit your brand, and which to sit out. Use when the user… |
+| [ugc-creator-brief](../skills/marketing-and-growth/ootto-claude-content-skills/ugc-creator-brief/) | Writes a clear brief for a creator or freelancer to film a reel for you — hook, beats, dos and don'ts. Use when the user says "brief a creator", "UGC brief", "write a… |
+| [utm-campaign-plan](../skills/marketing-and-growth/ootto-claude-content-skills/utm-campaign-plan/) | Use when a campaign needs a consistent, approved way to label links so the team can distinguish sources and make later reporting possible. Trigger phrases include "plan… |
+| [viral-carousel](../skills/marketing-and-growth/ootto-claude-content-skills/viral-carousel/) | Finds the carousels that actually went viral in your niche, fetches every slide, breaks down why each one worked, and builds your own carousel on that proven structure… |
+| [viral-hook-writer](../skills/marketing-and-growth/ootto-claude-content-skills/viral-hook-writer/) | Write scroll-stopping hooks for a short-form video (the first 1-3 seconds). Use when the user says "hook", "reel hook", "opening line", "scroll stopper", "first three… |
+| [virality](../skills/marketing-and-growth/ootto-claude-content-skills/virality/) | Plan, script and review short-form videos (Instagram Reels, TikTok, YouTube Shorts) so they actually get watched, with hooks that do something extraordinary in the first… |
+| [x-thread-strategy](../skills/marketing-and-growth/ootto-claude-content-skills/x-thread-strategy/) | Use when a real lesson, analysis, launch explanation, or resource needs a structured X thread rather than a single post. Trigger phrases include "make this an X thread"… |
 
 ## marketingskills
 
@@ -365,6 +429,16 @@ A LinkedIn strategy and writing system for founders. Upload it to the Claude app
 | Skill | What it does |
 |---|---|
 | [hattip-linkedin-os](../skills/marketing-and-growth/hattip-linkedin-os/hattip-linkedin-os/) | Hat Tip's LinkedIn strategy and writing system for founders and executives. Use when someone says "start my LinkedIn strategy", wants a LinkedIn content strategy… |
+
+## humanizer
+
+[blader/humanizer](https://github.com/blader/humanizer) · MIT · ★ 71.8k · 1 here
+
+Agent skill that removes signs of AI-generated writing from text
+
+| Skill | What it does |
+|---|---|
+| [humanizer](../skills/marketing-and-growth/humanizer/humanizer/) | Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line… |
 
 ## unlighthouse
 

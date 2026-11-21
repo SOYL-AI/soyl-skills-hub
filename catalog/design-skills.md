@@ -2,7 +2,7 @@
 
 Taste, layout, type, colour, design systems, critique and studying great sites.
 
-51 skills here and 6 linked to their source, from 17 projects. [All categories](../CATALOG.md)
+52 skills here and 6 linked to their source, from 18 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -103,6 +103,16 @@ Clone any website with one command using AI coding agents
 | Skill | What it does |
 |---|---|
 | [clone-website](../skills/design-skills/ai-website-cloner-template/clone-website/) | Rebuild existing web pages as working local code, matching their real content, assets, responsive layout, and interactions. Use for website cloning, replication, or… |
+
+## antialgorithm
+
+[mankidev/antialgorithm](https://github.com/mankidev/antialgorithm) · MIT · ★ 578 · 1 here
+
+Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.
+
+| Skill | What it does |
+|---|---|
+| [antialgorithm](../skills/design-skills/antialgorithm/antialgorithm/) | Stops the safe, average, comfortable pick that AI reaches for first. Use when a creative choice is left open to the agent: ideas, names, story, game mechanics, visual… |
 
 ## clone-study
 

@@ -2,7 +2,7 @@
 
 Reels, explainers, motion graphics, captions and editing video with code.
 
-233 skills here and 34 linked to their source, from 33 projects. [All categories](../CATALOG.md)
+234 skills here and 35 linked to their source, from 35 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -329,6 +329,16 @@ Give Claude the ability to watch any video — scene-change frames + transcript 
 |---|---|
 | [watch](../skills/video-and-motion/claude-watch/watch/) | Watch a video (URL or local path) like an editor. Extracts scene-change frames, pacing metrics (cuts/min, shot length), and a dense 0-10s hook microscope; pulls… |
 
+## Concat
+
+[jub0t/Concat](https://github.com/jub0t/Concat) · AGPL-3.0 · ★ 19.3k · 1 here
+
+Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.
+
+| Skill | What it does |
+|---|---|
+| [run-concat](../skills/video-and-motion/Concat/run-concat/) | Build, launch, and verify the Concat desktop app after a code change. Use this whenever the user asks to run Concat, test a change in the app, check whether something… |
+
 ## lemo-opuscar
 
 [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · MIT · ★ 10.4k · 1 here
@@ -378,6 +388,16 @@ Topic in, narrated explainer video out. A Claude Code / Codex skill that turns a
 | Skill | What it does |
 |---|---|
 | [anything2explainer ↗](https://github.com/Vincentwei1021/anything2explainer) | 给一个主题，产出一条黑底 MG 风格（幕底可选星点或点阵波）、有配音字幕章节进度条的科普讲解视频（中文或英文；Remotion 代码动画；时长由用户定，常用 3–5 分钟）。内含可编译模板、图元库、配音/分镜/渲染工具、风格与动效规范、多 agent 分工协议与 QC 判据，以及一条完整样片（《RAG 与知识库》）作为质量标尺。Turn… *(Non-commercial licence: install it from the source.)* |
+
+## cinecode
+
+[sarpstar/cinecode](https://github.com/sarpstar/cinecode) · MIT · ★ 2.8k · 1 linked
+
+Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.
+
+| Skill | What it does |
+|---|---|
+| [cinecode ↗](https://github.com/sarpstar/cinecode) | Makes a short film, animation, ad or music video entirely with code, together with the user. Two first questions - the mode (Quick - one HTML file with Web Audio sound… *(Too big to copy here (16 MB): install it from the source.)* |
 
 ## code-animation-prompts
 

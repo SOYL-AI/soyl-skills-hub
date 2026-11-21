@@ -2,7 +2,7 @@
 
 Web and paper research, notebooks, scraping and second brains.
 
-123 skills here and 7 linked to their source, from 10 projects. [All categories](../CATALOG.md)
+129 skills here and 7 linked to their source, from 11 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -65,6 +65,21 @@ Free, open-source MCP server that gives AI coding agents (Claude Code, Codex, Cu
 | [awwwards-setup](../skills/research-and-scraping/Awwwards-mcp/awwwards-setup/) | Use when the awwwards MCP server or its skills are invoked for the first time in a session or on a new machine — when no awwwards preferences exist yet, or the user asks… |
 | [motion-authoring](../skills/research-and-scraping/Awwwards-mcp/motion-authoring/) | Use when a converted project (build_project --authored) needs its motion authored — turning motion.manifest.json + inert skeletons into real per-section/page motion with… |
 | [recreate](../skills/research-and-scraping/Awwwards-mcp/recreate/) | Recreate a website from a link — evidence-driven reconstruction with the awwwards MCP. Use when the user says "recreate this site", "clone this page", "rebuild… |
+
+## browser-use
+
+[browser-use/browser-use](https://github.com/browser-use/browser-use) · MIT · ★ 121.6k · 6 here
+
+Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
+
+| Skill | What it does |
+|---|---|
+| [browser-use](../skills/research-and-scraping/browser-use/browser-use/) | Direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/app work. Also covers hosted cloud browsers for AI agents: the… |
+| [cloud](../skills/research-and-scraping/browser-use/cloud/) | Documentation reference for using Browser Use Cloud — the hosted API and SDK for browser automation. Use this skill whenever the user needs help with the Cloud REST API… |
+| [open-source](../skills/research-and-scraping/browser-use/open-source/) | Reference for writing Python code against the browser-use 1.0 open-source library (Agent, Browser, Tools, models, sensitive data, results). Use it whenever the user… |
+| [qa](../skills/research-and-scraping/browser-use/qa/) | QA-test a website or web app and return a 1-5 quality score (5 = flawless, 1 = broken) with evidence. Use when the user wants to test, QA, evaluate, score, or "check how… |
+| [remote-browser](../skills/research-and-scraping/browser-use/remote-browser/) | Controls an isolated Browser Use Cloud browser from a sandboxed machine with the current Browser Use CLI. |
+| [x402](../skills/research-and-scraping/browser-use/x402/) | Set up Browser Use Cloud payments with x402 — pay per request from a crypto wallet (USDC on Base mainnet), no signup or API key. Two setups it works out up front — "just… |
 
 ## firecrawl
 

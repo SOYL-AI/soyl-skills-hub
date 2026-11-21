@@ -2,7 +2,7 @@
 
 Planning, testing, debugging, code review, memory and shipping.
 
-533 skills here and 15 linked to their source, from 32 projects. [All categories](../CATALOG.md)
+545 skills here and 15 linked to their source, from 34 projects. [All categories](../CATALOG.md)
 
 **To install a skill**, open it, copy the address from your browser and run `npx skills add <that address> -g -a claude-code`. More ways in [How to install](../README.md#install-a-skill). Skills marked ↗ live in their own repos: install them from there.
 
@@ -281,6 +281,26 @@ An agentic skills framework & software development methodology that works.
 | [writing-plans](../skills/dev-workflow/superpowers/writing-plans/) | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [writing-skills](../skills/dev-workflow/superpowers/writing-skills/) | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
 
+## plannotator
+
+[backnotprop/plannotator](https://github.com/backnotprop/plannotator) · Apache-2.0+MIT · ★ 14k · 11 here
+
+The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
+
+| Skill | What it does |
+|---|---|
+| [plannotator](../skills/dev-workflow/plannotator/plannotator/) | Reference for using Plannotator (its `plannotator` tool when you have one, otherwise the CLI): plan review, code review, annotating files, URLs, folders, and running… |
+| [plannotator-annotate](../skills/dev-workflow/plannotator/plannotator-annotate/) | Open Plannotator's annotation UI for a file, folder, or URL, then address the returned annotations. |
+| [plannotator-compound](../skills/dev-workflow/plannotator/plannotator-compound/) | Analyze a user's Plannotator plan archive to extract denial patterns, feedback taxonomy, evolution over time, and actionable prompt improvements — then produce a… |
+| [plannotator-inbox](../skills/dev-workflow/plannotator/plannotator-inbox/) | Open the Plannotator Inbox in the browser (starting it if needed), say its address, and learn how to use the Inbox for the rest of the session. |
+| [plannotator-last](../skills/dev-workflow/plannotator/plannotator-last/) | Open Plannotator on the latest rendered assistant message and use the returned annotations to revise that message or continue. |
+| [plannotator-review](../skills/dev-workflow/plannotator/plannotator-review/) | Open Plannotator's browser-based code review UI and address the returned feedback. |
+| [plannotator-setup-goal](../skills/dev-workflow/plannotator/plannotator-setup-goal/) | Turn an idea or objective into a goal package for /goal. Interviews the user, builds a reviewed fact sheet via Plannotator, then explores the codebase to produce an… |
+| [plannotator-visual-explainer](../skills/dev-workflow/plannotator/plannotator-visual-explainer/) | Generate self-contained HTML visualizations with Plannotator theming. Use for implementation plans, PR explainers, architecture diagrams, data tables, slide decks, and… |
+| [release-plannotator](../skills/dev-workflow/plannotator/release-plannotator/) | Prepare and execute a Plannotator release — draft release notes with full contributor credit, bump versions across all package files, build in dependency order, and kick… |
+| [review-renovate](../skills/dev-workflow/plannotator/review-renovate/) | Review Renovate bot PRs that update GitHub Actions dependencies. Verifies supply chain integrity by checking pinned commit SHAs against upstream tagged releases, reviews… |
+| [update-deps](../skills/dev-workflow/plannotator/update-deps/) | Audit and update npm/Bun dependencies with supply chain integrity checks — verifies maintainers, publish age, tarball diffs, and provenance before bumping. Defers risky… |
+
 ## bug-hunter
 
 [codexstar69/bug-hunter](https://github.com/codexstar69/bug-hunter) · MIT · ★ 549 · 10 here, 1 linked
@@ -514,6 +534,16 @@ See how your app actually fits together. An interactive, plain-English map of yo
 | Skill | What it does |
 |---|---|
 | [floorplan](../skills/dev-workflow/floorplan/floorplan/) | Draw a floorplan of an app's codebase (one repo or several side by side), an interactive node-graph map where every subsystem, module, file and HTTP route has a… |
+
+## prompt-master
+
+[nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) · MIT · ★ 16.2k · 1 here
+
+A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention
+
+| Skill | What it does |
+|---|---|
+| [prompt-master](../skills/dev-workflow/prompt-master/prompt-master/) | Generates optimized prompts for AI tools. Activates only when the user explicitly asks to write, fix, improve, or adapt a prompt for a specific AI tool (LLM, Cursor… |
 
 ## pya
 
